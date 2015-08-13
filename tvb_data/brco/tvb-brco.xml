@@ -1,0 +1,1699 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<TVBOnto version="0.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="tvb-brco.xsd">
+
+    <TVBTerm id="http://thevirtualbrain.org#TCi" label="Inferior temporal cortex or subregion thereof">
+        <OntClass
+                definition="Component of the temporal lobe, lateral aspect.  The rostral boundary is the rostral extent of the inferior temporal sulcus whereas the caudal boundary is designated as the temporo-occipital incisure on the cortical surface. The occipitotemporal sulcus is the medial boundary and the inferior temporal sulcus is the lateral boundary (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                label="Inferior temporal gyrus"
+                synonym="Inferior temporal gyrus|lateral occipitotemporal gyrus|Gyrus temporalis inferior|gyrus temporalis inferior|lateral occipitotemporal gyrus (Heimer-83)|T3|ITG|inferior temporal gyrus|lateral occipitotemporal gyrus Heimer-83|Inferior temporal gyrus|lateral occipitotemporal gyrus|Gyrus temporalis inferior|gyrus temporalis inferior|lateral occipitotemporal gyrus (Heimer-83)|T3|ITG|inferior temporal gyrus|lateral occipitotemporal gyrus Heimer-83"
+                uri="http://nerged.cellandgrossanatomy.owl#birnlex_1577"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#S1" label="Primary somatosensory cortex or subregion thereof">
+        <OntClass label="primary somesthetic area"
+                  synonym="postcentral tactile area|primary somatic sensory area|somatic area I|primary somesthetic area|primary somatosensory cortex|somatic sensory I|somatosensory strip|somatic afferent area I|primary somesthetic cortex|SI|postcentral tactile area|primary somatic sensory area|somatic area I|primary somesthetic area|primary somatosensory cortex|somatic sensory I|somatosensory strip|somatic afferent area I|primary somesthetic cortex|SI"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_1350"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PMCm"
+             label="Medial premotor cortex (= supplementary motor cortex) or subregion thereof">
+        <OntClass label="Ventrolateral prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCvl"/>
+        <OntClass label="Centrolateral prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCcl"/>
+        <OntClass label="premotor cortex"
+                  synonym="premotor cortex|PM|intermediate precentral cortex|promotor cortex|premotor area|premotor cortex|PM|intermediate precentral cortex|promotor cortex|premotor area"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_2331"/>
+        <OntClass label="Dorsolateral premotor cortex or subregion thereof" uri="http://thevirtualbrain.org#PMCdl"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#S2" label="Secondary somatosensory cortex or subregion thereof">
+        <OntClass label="somesthetic areas" synonym="somesthetic areas|somesthetic areas"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_2349"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#TCc" label="Central temporal cortex or subregion thereof">
+        <OntClass label="Regional part of temporal lobe" uri="http://nerged.cellandgrossanatomy.owl#birnlex_1625">
+            <OntClass label="ventral temporal cortex or subregion thereof" uri="http://thevirtualbrain.org#TCv"/>
+            <OntClass label="superior temporal cortex or subregion thereof" uri="http://thevirtualbrain.org#TCs"/>
+            <OntClass label="Pole of temporal cortex or subregion thereof" uri="http://thevirtualbrain.org#TCpol"/>
+            <OntClass label="Superficial feature part of temporal lobe"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_1538">
+                <OntClass label="Posterior middle temporal sulcus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_1017"/>
+                <OntClass label="Inferior temporal sulcus"
+                          synonym="middle temporal sulcus Szikla|Inferior temporal sulcus|middle temporal fissure|Sulcus temporalis medius Roberts|middle temporal fissure Crosby|inferior temporal sulcus|Sulcus temporalis secundus|inferior temporal sulcus human|its|middle temporal sulcus|inferior temporal sulcus-1|Sulcus temporalis inferior|middle temporal fissure (Crosby)|Sulcus temporalis medius (Roberts)|second temporal sulcus|inferior temporal sulcus (human)|sulcus t2|Sulcus temporalis medius|middle temporal sulcus (Szikla)|middle temporal sulcus Szikla|Inferior temporal sulcus|middle temporal fissure|Sulcus temporalis medius Roberts|middle temporal fissure Crosby|inferior temporal sulcus|Sulcus temporalis secundus|inferior temporal sulcus human|its|middle temporal sulcus|inferior temporal sulcus-1|Sulcus temporalis inferior|middle temporal fissure (Crosby)|Sulcus temporalis medius (Roberts)|second temporal sulcus|inferior temporal sulcus (human)|sulcus t2|Sulcus temporalis medius|middle temporal sulcus (Szikla)"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_800"/>
+                <OntClass label="Regional part of superior temporal sulcus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_856">
+                    <OntClass
+                            definition="Component of the temporal lobe, lateral aspect.  The rostral boundary is the superior temporal gyrus and the caudal boundary the middle temporal gyrus.  Within the FreeSurfer definition, this reflects primarily the posterior aspect of the superior temporal sulcus (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                            label="Banks of superior temporal sulcus"
+                            uri="http://nerged.cellandgrossanatomy.owl#birnlex_862"/>
+                </OntClass>
+                <OntClass label="Lateral inferior limiting sulcus"
+                          synonym="Sulcus limitans inferior lateralis|Lateral inferior limiting sulcus|lateral inferior limiting sulcus|Sulcus limitans inferior lateralis|Lateral inferior limiting sulcus|lateral inferior limiting sulcus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_1540"/>
+                <OntClass
+                        definition="Anterior component of the temporal lobe (rostral boundary) extends caudally to the entorhinal cortex.  The medial and lateral boundaries are the medial aspect of the temporal lobe and the superior or inferior temporal sulci, respectively (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                        label="Temporal pole"
+                        synonym="temporal pole|Temporal pole|Polus temporalis|temporal pole|Temporal pole|Polus temporalis"
+                        uri="http://nerged.cellandgrossanatomy.owl#birnlex_1055"/>
+                <OntClass label="Temporal operculum"
+                          synonym="Temporal operculum|temporal operculum|facies supratemporalis|top|Operculum temporale|Temporal operculum|temporal operculum|facies supratemporalis|top|Operculum temporale"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_1025"/>
+                <OntClass label="Superior temporal sulcus"
+                          synonym="sulcus t1|parallel sulcus|sts|superior temporal fissure|Sulcus temporalis superior|superior temporal sulcus|Sulcus temporalis primus|Superior temporal sulcus|sulcus t1|parallel sulcus|sts|superior temporal fissure|Sulcus temporalis superior|superior temporal sulcus|Sulcus temporalis primus|Superior temporal sulcus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_1534"/>
+                <OntClass label="Anterior middle temporal sulcus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_998"/>
+                <OntClass label="Transverse temporal sulcus"
+                          synonym="transverse temporal sulcus human|Sulci temporales transversi|transverse temporal sulcus (human)|Transverse temporal sulcus|tts|transverse temporal sulcus|transverse temporal sulcus human|Sulci temporales transversi|transverse temporal sulcus (human)|Transverse temporal sulcus|tts|transverse temporal sulcus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_1045"/>
+            </OntClass>
+            <OntClass label="Predominantly gray regional part of temporal lobe"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_1633">
+                <OntClass label="Anterior transverse temporal gyrus"
+                          synonym="first transverse gyrus of Heschl|ATTG|Gyrus temporalis transversus anterior|anterior transverse temporal gyrus (human)|anterior transverse convolution of Heschl|anterior transverse temporal convolution of Heschl|Anterior transverse temporal gyrus|great transverse gyrus of Heschl|Gyrus temporalis transversus primus|anterior transverse temporal gyrus human|anterior transverse temporal gyrus|first transverse gyrus of Heschl|ATTG|Gyrus temporalis transversus anterior|anterior transverse temporal gyrus (human)|anterior transverse convolution of Heschl|anterior transverse temporal convolution of Heschl|Anterior transverse temporal gyrus|great transverse gyrus of Heschl|Gyrus temporalis transversus primus|anterior transverse temporal gyrus human|anterior transverse temporal gyrus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_1657"/>
+                <OntClass
+                        definition="Component of the temporal lobe, lateral aspect.  The rostral boundary  is the rostral extent of the superior temporal sulcus whereas the caudal boundary is the temporo-occipital incisure on the cortical surface. The superior temporal sulcus is the medial boundary and the inferior temporal sulcus is the lateral boundary (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                        label="Middle temporal gyrus"
+                        synonym="T2|Middle temporal gyrus|middle temporal gyrus|Gyrus temporalis medius|MTG|intermediate temporal gyrus|gyrus temporalis medius|T2|Middle temporal gyrus|middle temporal gyrus|Gyrus temporalis medius|MTG|intermediate temporal gyrus|gyrus temporalis medius"
+                        uri="http://nerged.cellandgrossanatomy.owl#birnlex_1653"/>
+                <OntClass label="Regional part of transverse temporal cortex"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_1578">
+                    <OntClass label="Posterior transverse termporal area 42"
+                              synonym="area 42 of Brodmann|auditory association area|Brodmann's area 42|area 42 of Brodmann|auditory association area|Brodmann's area 42"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_1589"/>
+                    <OntClass label="Anterior transverse termporal area 41"
+                              synonym="Brodmann's area 41|parietal cortex|Anterior transverse termporal area 41|principle auditory receptive areas|Lobus parietalis|parietal lobe|area 41 of Brodmann|PL|Brodmann's area 41|parietal cortex|Anterior transverse termporal area 41|principle auditory receptive areas|Lobus parietalis|parietal lobe|area 41 of Brodmann|PL"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_1582">
+                        <OntClass label="Glucose metabolism" relation="unfolds-in"
+                                  synonym="Metabolism of glucose|metabolic pathway of glucose|glucose metabolism pathway|glucose metabolic pathway|pathway of glucose metabolism"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID1892">
+                            <OntClass label="Glycogen synthesis"
+                                      synonym="glycogen synthesis pathway|Glycogen biosynthesis pathway|glycogen biosynthesis pathway|glycogen biosynthetic pathway|Biosynthesis of Glycogen|biosynthetic pathway of glycogen|Glycogen synthetic pathway|Glycogen biosynthetic pathway|synthesis of Glycogen|glycogen synthetic pathway|biosynthetic pathway of Glycogen|synthetic pathway of Glycogen|synthesis of glycogen|Biosynthesis of glycogen|Glycogen synthesis pathway|glycogen biosynthesis|synthetic pathway of glycogen|glycogen synthesis|glycogenesis"
+                                      uri="http://scai.fraunhofer.de/PWDICT#ID2025">
+                                <OntClass label="Glycosaminoglycan biosynthesis - chondroitin sulfate"
+                                          synonym="Biosynthesis of GAG|GAG biosynthesis pathway|synthesis of Glycosaminoglycan|Glycosaminoglycan synthesis|Glycosaminoglycan biosynthesis|Glycosaminoglycan biosynthetic pathway - chondroitin sulfate|GAG synthesis|biosynthetic pathway of Glycosaminoglycan|Biosynthesis of Glycosaminoglycan|Glycosaminoglycan biosynthesis pathway|Glycosaminoglycan synthetic pathway|synthetic pathway of Glycosaminoglycan|biosynthetic pathway of GAG|GAG synthetic pathway|synthesis of GAG|GAG synthesis pathway|Glycosaminoglycan biosynthetic pathway|synthetic pathway of GAG|GAG biosynthetic pathway|GAG biosynthesis|Glycosaminoglycan synthesis pathway"
+                                          uri="http://scai.fraunhofer.de/PWDICT#ID0926">
+                                    <OntClass label="Glycosaminoglycan biosynthesis - heparan sulfate"
+                                              synonym="Glycosaminoglycan biosynthetic pathway - heparan sulfate"
+                                              uri="http://scai.fraunhofer.de/PWDICT#ID0927"/>
+                                </OntClass>
+                                <OntClass label="altered glycogen biosynthetic pathway"
+                                          synonym="altered glycogen biosynthesis"
+                                          uri="http://scai.fraunhofer.de/PWDICT#ID0649"/>
+                            </OntClass>
+                            <OntClass label="Rgt1 in Yeast Glucose Induction Pathway"
+                                      uri="http://scai.fraunhofer.de/PWDICT#ID1324"/>
+                        </OntClass>
+                        <OntClass label="Glucose metabolism" relation="unfolds-in"
+                                  synonym="Metabolism of glucose|metabolic pathway of glucose|glucose metabolism pathway|glucose metabolic pathway|pathway of glucose metabolism"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID1892"/>
+                        <OntClass label="neuronal pathway" relation="unfolds-in" synonym="CTC pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID3077">
+                            <OntClass label="gabaergic pathway" synonym="GABA(A) receptor signalling"
+                                      uri="http://scai.fraunhofer.de/PWDICT#ID3001"/>
+                            <OntClass label="neurotrophic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3078"/>
+                            <OntClass label="neuronal death pathway"
+                                      synonym="neuronal apoptosis|neuronal apoptotic pathway"
+                                      uri="http://scai.fraunhofer.de/PWDICT#ID3076"/>
+                        </OntClass>
+                    </OntClass>
+                </OntClass>
+                <OntClass
+                        definition="Component of the temporal lobe, lateral aspect.  The rostral boundary is the rostral extent of the inferior temporal sulcus whereas the caudal boundary is designated as the temporo-occipital incisure on the cortical surface. The occipitotemporal sulcus is the medial boundary and the inferior temporal sulcus is the lateral boundary (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                        label="Inferior temporal gyrus"
+                        synonym="Inferior temporal gyrus|lateral occipitotemporal gyrus|Gyrus temporalis inferior|gyrus temporalis inferior|lateral occipitotemporal gyrus (Heimer-83)|T3|ITG|inferior temporal gyrus|lateral occipitotemporal gyrus Heimer-83|Inferior temporal gyrus|lateral occipitotemporal gyrus|Gyrus temporalis inferior|gyrus temporalis inferior|lateral occipitotemporal gyrus (Heimer-83)|T3|ITG|inferior temporal gyrus|lateral occipitotemporal gyrus Heimer-83"
+                        uri="http://nerged.cellandgrossanatomy.owl#birnlex_1577"/>
+                <OntClass
+                        definition="Component of the temporal lobe, lateral aspect.  The rostral boundary is the rostral extent of the ssuperior temporal sulcus.  The caudal boundary is the cauday portion of the superior temporal gyrus (posterior to becoming continuous with the supramarginal gyrus).  The medial boundary is the lateral fissure (and when present the supramarginal gyrus), and the lateral boundary is the superior temporal suclus (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                        label="Superior temporal gyrus"
+                        synonym="T1|STG|superior temporal gyrus|Gyrus temporalis superior|Superior temporal gyrus|T1|STG|superior temporal gyrus|Gyrus temporalis superior|Superior temporal gyrus"
+                        uri="http://nerged.cellandgrossanatomy.owl#birnlex_1648"/>
+                <OntClass label="Fusiform gyrus"
+                          synonym="medial occipitotemporal gyrus-1 Heimer|FuG|lateral occipitotemporal gyrus|T4|medial occipitotemporal gyrus-1 (Heimer)|fusiform gyrus|Gyrus occipito-temporalis lateralis|Gyrus occipitotemporalis lateralis|Gyrus fusiformis|medial occipitotemporal gyrus-1|occipitotemporal gyrus|lateral occipito-temporal gyrus|Fusiform gyrus|medial occipitotemporal gyrus-1 Heimer|FuG|lateral occipitotemporal gyrus|T4|medial occipitotemporal gyrus-1 (Heimer)|fusiform gyrus|Gyrus occipito-temporalis lateralis|Gyrus occipitotemporalis lateralis|Gyrus fusiformis|medial occipitotemporal gyrus-1|occipitotemporal gyrus|lateral occipito-temporal gyrus|Fusiform gyrus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_1641"/>
+                <OntClass
+                        definition="Copmonent of the temporal lobe, lateral aspect.  The rostral boundary is the first appearance of the transverse temporal sulcus whereas the caudal boundary is the last slice where the transverse temporal cortex could be identified before its merger into the insular cortex. The lateral fissure and the superior temporal gyrus are the medial and lateral boundaries respectively (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                        label="Transverse temporal cortex" uri="http://nerged.cellandgrossanatomy.owl#birnlex_1389"/>
+                <OntClass label="Posterior transverse temporal gyrus"
+                          synonym="PTTG|posterior transverse temporal gyrus|posterior transverse temporal gyrus human|posterior transverse temporal gyrus (human)|posterior transverse convolution of Heschl|Gyrus temporalis transversus posterior|Posterior transverse temporal gyrus|posterior transverse temporal convolution of Heschl|PTTG|posterior transverse temporal gyrus|posterior transverse temporal gyrus human|posterior transverse temporal gyrus (human)|posterior transverse convolution of Heschl|Gyrus temporalis transversus posterior|Posterior transverse temporal gyrus|posterior transverse temporal convolution of Heschl"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_1661"/>
+            </OntClass>
+        </OntClass>
+        <OntClass label="middle temporal sulcus" synonym="Sulcus temporalis medius|mts|Sulcus temporalis medius|mts"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_131"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#CCa" label="Gyrus cinguli anterior or subregion thereof">
+        <OntClass label="Anterior cingulate gyrus"
+                  synonym="anterior cingulate gyrus|Gyrus cinguli anterior|Anterior cingulate gyrus|anterior cingulate|anterior cingulate gyrus|Gyrus cinguli anterior|Anterior cingulate gyrus|anterior cingulate"
+                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_1603"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PFCorb" label="Orbital prefrontal cortex or subregion thereof">
+        <OntClass
+                definition="Component of the frontal lobe, inferior region (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                label="Orbital frontal cortex" uri="http://nerged.cellandgrossanatomy.owl#birnlex_1049"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#HC" label="Hippocampal cortex or subregion thereof">
+        <OntClass
+                definition="Regional part of fornix consisting of a prominent white matter structure adjacent to the hippocampus on the ventricular side continuous with the alveus.  Near the splenium the fimbria separates from the hippocampus as the crus of the fornix. [adapted from Wikipedia] (MM: 2006-10-26).^^http://www.w3.org/2001/XMLSchema#string"
+                label="Fimbria of hippocampus"
+                synonym="fimbria of the fornix|fimbria-fornix|fi|Fimbria|fimbria of fornix|Fimbria of hippocampus|Fimbria fornicis|Fimbria ç&#x2c6;&#x192;ippocampi|fimbria of hippocampus|fimbria|fimbria of the fornix|fimbria-fornix|fi|Fimbria|fimbria of fornix|Fimbria of hippocampus|Fimbria fornicis|Fimbria ç&#x2c6;&#x192;ippocampi|fimbria of hippocampus|fimbria"
+                uri="http://nerged.cellandgrossanatomy.owl#birnlex_1502"/>
+        <OntClass
+                definition="A cytoarchitectural subregion of the Ammon's horn region of the hippocampal formation .  The principal cell type is the  pyramidal neuron.  The pyramidal neurons of CA1 receive projections from pyramidal neurons of CA3 via the Schaffer collaterals.^^http://www.w3.org/2001/XMLSchema#string"
+                label="CA1"
+                synonym="CA1|CA1 field of hippocampus|Regio superior|CA1 field|CA1 field of the hippocampus|prosubiculum = distal CA1|cornu ammonis 1|Cornu Ammonis 1|CA1|CA1 field of hippocampus|Regio superior|CA1 field|CA1 field of the hippocampus|prosubiculum = distal CA1|cornu ammonis 1|Cornu Ammonis 1"
+                uri="http://nerged.cellandgrossanatomy.owl#birnlex_1197">
+            <OntClass label="CA1 stratum lacunosum moleculare" relation="located-in"
+                      synonym="CA1 part of stratum lacunosum moleculare|CA1 part of stratum lacunosum moleculare"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4123">
+                <OntClass label="Hippocampus CA1 neurogliaform neuron" relation="located-in"
+                          synonym="CA1 NG cells|NG cells|CA1 NG cells|NG cells"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_1006031"/>
+            </OntClass>
+            <OntClass label="CA1 stratum radiatum" relation="located-in"
+                      synonym="CA1 part of stratum radiatum|CA1 part of stratum radiatum"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4119">
+                <OntClass label="Hippocampus CA1 LM(R) PP neuron" relation="located-in"
+                          uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Hippocampus_CA1_LMR_PP_neuron"/>
+                <OntClass label="Hippocampus CA1 IS-II neuron" relation="located-in"
+                          synonym="CA1 IS-II cell|CA1 IS-II cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_1006029"/>
+            </OntClass>
+            <OntClass label="CA1 stratum pyramidale hippocampi" relation="located-in"
+                      synonym="CA1 pyramidal cell layer|CA1 stratum pyramidale|CA1 pyramidal cell layer|CA1 stratum pyramidale"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4110">
+                <OntClass label="Hippocampus CA1 IS-III neuron" relation="located-in"
+                          synonym="CA1 IS-III cell|CA1 IS-III cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_1006030"/>
+                <OntClass label="Hippocampus CA1 ivy neuron" relation="located-in"
+                          synonym="ivy cell|CA1 ivy cell|ivy cell|CA1 ivy cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_1006008"/>
+                <OntClass label="Hippocampus CA1 IS-I neuron" relation="located-in"
+                          synonym="CA1 IS-I cell|CA1 IS-I cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_100209"/>
+            </OntClass>
+        </OntClass>
+        <OntClass
+                definition="A part of the brain consisting of a three layered cortex located in the forebrain bordering the medial surface of the lateral ventricle.  The term hippocampus is often used synonymously with  hippocampal formation which consists of the hippocampus proper or Cornu Ammonis, the dentate gyrus and the subiculum.^^http://www.w3.org/2001/XMLSchema#string"
+                label="Hippocampus"
+                synonym="hippocampus proper|Ammon's horn|Cornu ammonis|ammon horn|hippocampus proper|Ammon's horn|Cornu ammonis|ammon horn"
+                uri="http://nerged.cellandgrossanatomy.owl#birnlex_721">
+            <OntClass
+                    definition="A cytoarchitectural subregion of the Ammon's horn region of the hippocampal formation .  The principal cell type is the  pyramidal neuron.  The pyramidal neurons of CA1 receive projections from pyramidal neurons of CA3 via the Schaffer collaterals.^^http://www.w3.org/2001/XMLSchema#string"
+                    label="CA1" relation="located-in"
+                    synonym="CA1|CA1 field of hippocampus|Regio superior|CA1 field|CA1 field of the hippocampus|prosubiculum = distal CA1|cornu ammonis 1|Cornu Ammonis 1|CA1|CA1 field of hippocampus|Regio superior|CA1 field|CA1 field of the hippocampus|prosubiculum = distal CA1|cornu ammonis 1|Cornu Ammonis 1"
+                    uri="http://nerged.cellandgrossanatomy.owl#birnlex_1197">
+                <OntClass label="CA1 stratum lacunosum moleculare" relation="located-in"
+                          synonym="CA1 part of stratum lacunosum moleculare|CA1 part of stratum lacunosum moleculare"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_4123">
+                    <OntClass label="Hippocampus CA1 neurogliaform neuron" relation="located-in"
+                              synonym="CA1 NG cells|NG cells|CA1 NG cells|NG cells"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_1006031"/>
+                </OntClass>
+                <OntClass label="CA1 stratum radiatum" relation="located-in"
+                          synonym="CA1 part of stratum radiatum|CA1 part of stratum radiatum"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_4119">
+                    <OntClass label="Hippocampus CA1 LM(R) PP neuron" relation="located-in"
+                              uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Hippocampus_CA1_LMR_PP_neuron"/>
+                    <OntClass label="Hippocampus CA1 IS-II neuron" relation="located-in"
+                              synonym="CA1 IS-II cell|CA1 IS-II cell"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_1006029"/>
+                </OntClass>
+                <OntClass label="CA1 stratum pyramidale hippocampi" relation="located-in"
+                          synonym="CA1 pyramidal cell layer|CA1 stratum pyramidale|CA1 pyramidal cell layer|CA1 stratum pyramidale"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_4110">
+                    <OntClass label="Hippocampus CA1 IS-III neuron" relation="located-in"
+                              synonym="CA1 IS-III cell|CA1 IS-III cell"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_1006030"/>
+                    <OntClass label="Hippocampus CA1 ivy neuron" relation="located-in"
+                              synonym="ivy cell|CA1 ivy cell|ivy cell|CA1 ivy cell"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_1006008"/>
+                    <OntClass label="Hippocampus CA1 IS-I neuron" relation="located-in"
+                              synonym="CA1 IS-I cell|CA1 IS-I cell"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_100209"/>
+                </OntClass>
+            </OntClass>
+            <OntClass label="long term depression" relation="unfolds-in" synonym="LTD|long-term depression"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID0062"/>
+            <OntClass label="intrinsic apoptotic pathway" relation="unfolds-in"
+                      synonym="Intrinsic Pathway for Apoptosis|Intrinsic Pathway of Apoptosis"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID0107">
+                <OntClass label="altered intrinsic apoptotic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID0291"/>
+            </OntClass>
+            <OntClass label="p38 cascade" relation="unfolds-in"
+                      synonym="p38 MAPK signaling cascade|p38 kinase pathway|p38 signaling pathway|p38 signaling cascade|p38 signal pathway|p38 mitogen-activated protein kinase (p38 MAPK) signaling pathway|p38 mitogen-activated protein kinase Cascade|p38 mitogen-activated protein kinase (p38 MAPK) Cascade|p38 mitogen-activated protein kinase (p38 MAPK) signaling|p38 mitogen-activated protein kinase pathway|p38 MAPK signal transduction pathway|p38 signaling|p38 MAPK signaling pathway|p38 mitogen-activated protein kinase signaling pathway|p38 mitogen-activated protein kinase (p38 MAPK) pathway|p38 signal transduction pathway|p38MAPK events|p38 MAPK Cascade|p38 mitogen-activated protein kinase signal transduction pathway|p38 MAP kinase signaling pathway|p38MAPK pathway|p38 MAPK signaling|p38 mitogen-activated protein kinase (p38 MAPK) signal pathway|p38 mitogen-activated protein kinase (p38 MAPK) signaling cascade|p38 mitogen-activated protein kinase signaling cascade|p38 mitogen-activated protein kinase signaling|p38 pathway|p38 Cascade|p38 MAPK signal pathway|p38 mitogen-activated protein kinase (p38 MAPK) signal transduction pathway|p38 MAPK pathway|p38 MAP kinase pathway|p38 signaling network|p38 mitogen-activated protein kinase signal pathway"
+                      uri="http://purl.obolibrary.org/obo/IEV_0000234">
+                <OntClass label="p38 MAPK- NF-kB pathway"
+                          synonym="p38 MAPK- NF-kB Cascade|p38 MAPK- NF-kB signaling cascade|p38 MAPK- NF-kB signaling|p38 MAPK- NF-kB signaling pathway|p38 MAPK- NF-kB signaling network|p38 MAPK- NF-kB signal transduction pathway|p38 MAPK- NF-kB signal pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2647"/>
+                <OntClass label="p38-p53 signal pathway"
+                          synonym="p38-p53 pathway|p38-p53 signal transduction pathway|p38-p53 signaling network|p38-p53 Cascade|p38-p53 signaling pathway|p38-p53 signaling cascade|p38-p53 signaling"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2698"/>
+                <OntClass label="altered p38 MAPK signaling pathway"
+                          synonym="altered p38 MAPK signaling|altered p38 mitogen-activated protein kinase signaling |altered p38 mitogen-activated protein kinase signaling pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0605"/>
+                <OntClass label="p38 signaling mediated by MAPKAP kinases"
+                          synonym="MAPKAP kinases mediated p38 signaling"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2239"/>
+            </OntClass>
+            <OntClass label="Hippocampus (CA) pyramidal cell" relation="located-in"
+                      synonym="Hippocampus (CA) pyramidal neuron|Hippocampal Pyramidal Neuron|Hippocampal Pyramidal Neuron|Hippocampus (CA) pyramidal neuron|Hippocampal Pyramidal Neuron|Hippocampal Pyramidal Neuron"
+                      uri="http://nerged.cellandgrossanatomy.owl#sao131261273">
+                <OntClass label="Hippocampus CA1 pyramidal cell"
+                          synonym="CA1 pyramidal neuron|Hippocampal CA1 pyramidal cell|Hippocampus CA1 pyramidal neuron|Hippocampal CA1 pyramidal neuron|CA1 pyramidal neuron|Hippocampal CA1 pyramidal cell|Hippocampus CA1 pyramidal neuron|Hippocampal CA1 pyramidal neuron"
+                          uri="http://nerged.cellandgrossanatomy.owl#sao830368389"/>
+                <OntClass label="Hippocampus CA2 pyramidal cell"
+                          synonym="Hippocampal CA2 pyramidal neuron|Hippocampus CA2 pyramidal neuron|Hippocampal CA2 pyramidal neuron|Hippocampus CA2 pyramidal neuron"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_20081204">
+                    <OntClass label="CA2 pyramidal neuron"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_20081205"/>
+                </OntClass>
+            </OntClass>
+            <OntClass label="Magnocellular neurosecretory cell" relation="located-in"
+                      synonym="Hypothalamic magnocellular neurosecretory cell|Hypothalamic magnocellular neurosecretory cell|Magnocellular secretory neuron|Magnocellular secretory neuron|Hypothalamic magnocellular neurosecretory neuron|Hypothalamic magnocellular neurosecretory neuron|motor neuroendocrine magnocellular neuron|Hypothalamic magnocellular neurosecretory cell|Hypothalamic magnocellular neurosecretory cell|Magnocellular secretory neuron|Magnocellular secretory neuron|Hypothalamic magnocellular neurosecretory neuron|Hypothalamic magnocellular neurosecretory neuron|motor neuroendocrine magnocellular neuron"
+                      uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_20090501">
+                <OntClass label="Vasopressin producing magnocellular neurosecretory cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_20090503"/>
+                <OntClass label="Oxytocin producing magnocellular neurosecretory cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_20090502"/>
+            </OntClass>
+            <OntClass label="neural pathway" relation="unfolds-in" synonym="mesocortical pathway|neurogenic pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID2656">
+                <OntClass label="neuronal pathway" synonym="CTC pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3077">
+                    <OntClass label="gabaergic pathway" synonym="GABA(A) receptor signalling"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3001"/>
+                    <OntClass label="neurotrophic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3078"/>
+                    <OntClass label="neuronal death pathway" synonym="neuronal apoptosis|neuronal apoptotic pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3076"/>
+                </OntClass>
+                <OntClass label="sinonasal parasympathetic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2746"/>
+                <OntClass label="interlimb pathway"
+                          synonym="interlimb neural pathway|interlimb reflex pathway|interlimb spinal pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2715"/>
+                <OntClass label="physiological response pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2576"/>
+                <OntClass label="neurocognitive pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2713">
+                    <OntClass label="glutamate-NO-cGMP pathway"
+                              synonym="glutamate receptor/NO/cGMP pathway|glutamate-nitric oxide-cyclic GMP pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3004">
+                        <OntClass
+                                label="glutamate-nitric oxide-cyclic guanosine 3'5'-monophosphate (cyclic GMP) pathway"
+                                uri="http://scai.fraunhofer.de/PWDICT#ID2560"/>
+                    </OntClass>
+                </OntClass>
+                <OntClass label="tinnitus dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2441"/>
+                <OntClass label="Erythropoietin mediated neuroprotection through NF-kB "
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1216"/>
+                <OntClass label="nigrostriatal pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2385">
+                    <OntClass label="nigrostriatal DA pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2408"/>
+                    <OntClass label="nigrostriatal dopamine pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3080"/>
+                    <OntClass label="nigrostriatal dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2490"/>
+                </OntClass>
+                <OntClass label="monosynaptic reflex pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3062"/>
+                <OntClass label="schaffer collateral CA1 pathway" synonym="schaffer collateral commissural pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID3158"/>
+                <OntClass label="olfactory nerve pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3090"/>
+                <OntClass label="micturition reflex pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3055"/>
+            </OntClass>
+            <OntClass label="CA2" relation="located-in"
+                      synonym="CA2 field of hippocampus|CA2 field of the hippocampus|CA2|CA2 field|Cornu Ammonis 2|CA2 field of hippocampus|CA2 field of the hippocampus|CA2|CA2 field|Cornu Ammonis 2"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_1362">
+                <OntClass label="CA2 stratum pyramidale hippocampi" relation="located-in"
+                          synonym="CA2 part of stratum pyramidale hippocampi|CA2 part of stratum pyramidale hippocampi"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_4111">
+                    <OntClass label="Hippocampus CA2 basket cell narrow" relation="located-in"
+                              synonym="CA2 basket cell|CA2 basket cell"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091208"/>
+                    <OntClass label="Hippocampus CA2 bistratified cell broad" relation="located-in"
+                              synonym="CA2 bistratified cell|CA2 bistratified cell"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091209"/>
+                    <OntClass label="Hippocampus CA2 bistratified cell narrow" relation="located-in"
+                              synonym="CA2 bistratified cell|CA2 bistratified cell"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091004"/>
+                </OntClass>
+            </OntClass>
+            <OntClass label="CA3" relation="located-in"
+                      synonym="CA3 field of the hippocampus|CA3 field|Cornu Ammonis 3|Regio inferior|CA3|CA3 field of hippocampus|CA3 field of the hippocampus|CA3 field|Cornu Ammonis 3|Regio inferior|CA3|CA3 field of hippocampus"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_1204">
+                <OntClass label="CA3 stratum lacunosum moleculare" relation="located-in"
+                          synonym="CA3 part of stratum lacunosum moleculare|CA3 part of stratum lacunosum moleculare"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_4125">
+                    <OntClass label="Hippocampus CA3 lacunosum moleculare neuron" relation="located-in"
+                              synonym="CA3 LM interneurons|CA3 LM interneurons"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091214"/>
+                </OntClass>
+                <OntClass label="CA3 stratum radiatum" relation="located-in"
+                          synonym="CA3 part of stratum radiatum|CA3 part of stratum radiatum"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_4121">
+                    <OntClass label="Hippocampus CA3 radiatum neuron" relation="located-in"
+                              synonym="CA3 R interneuron|CA3 R interneuron"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091217"/>
+                </OntClass>
+                <OntClass label="CA3 stratum pyramidale hippocampi" relation="located-in"
+                          synonym="CA3 part of stratum pyramidale hippocampi|CA3 part of stratum pyramidale hippocampi"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_4112">
+                    <OntClass label="HippocampusCA3 pyramidal cell" relation="located-in"
+                              uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Hippocampus_CA3_pyramidal_cell"/>
+                    <OntClass label="Hippocampus CA3 axo-axonic cell" relation="located-in"
+                              synonym="CA3 chandelier cell|CA3 chandelier cell"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091212"/>
+                    <OntClass label="Hippocampus CA3 basket cell" relation="located-in"
+                              synonym="CA3 pyramidal basket cell|CA3 pyramidal basket cell"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091213"/>
+                </OntClass>
+                <OntClass label="CA3 stratum lucidum" relation="located-in"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_anat_1005040">
+                    <OntClass label="Hippocampus CA3 spiny CR cell" relation="located-in"
+                              synonym="CA3 Spiny CR immunoreactive cell|CA3 Spiny CR-positive interneurons|CA3 Spiny CR immunoreactive cell|CA3 Spiny CR-positive interneurons"
+                              uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091218"/>
+                </OntClass>
+                <OntClass label="CA3 stratum oriens" relation="located-in"
+                          synonym="CA3 part of stratum oriens|CA3 part of stratum oriens"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_4117"/>
+            </OntClass>
+        </OntClass>
+        <OntClass label="CA2"
+                  synonym="CA2 field of hippocampus|CA2 field of the hippocampus|CA2|CA2 field|Cornu Ammonis 2|CA2 field of hippocampus|CA2 field of the hippocampus|CA2|CA2 field|Cornu Ammonis 2"
+                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_1362">
+            <OntClass label="CA2 stratum pyramidale hippocampi" relation="located-in"
+                      synonym="CA2 part of stratum pyramidale hippocampi|CA2 part of stratum pyramidale hippocampi"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4111">
+                <OntClass label="Hippocampus CA2 basket cell narrow" relation="located-in"
+                          synonym="CA2 basket cell|CA2 basket cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091208"/>
+                <OntClass label="Hippocampus CA2 bistratified cell broad" relation="located-in"
+                          synonym="CA2 bistratified cell|CA2 bistratified cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091209"/>
+                <OntClass label="Hippocampus CA2 bistratified cell narrow" relation="located-in"
+                          synonym="CA2 bistratified cell|CA2 bistratified cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091004"/>
+            </OntClass>
+        </OntClass>
+        <OntClass label="CA3"
+                  synonym="CA3 field of the hippocampus|CA3 field|Cornu Ammonis 3|Regio inferior|CA3|CA3 field of hippocampus|CA3 field of the hippocampus|CA3 field|Cornu Ammonis 3|Regio inferior|CA3|CA3 field of hippocampus"
+                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_1204">
+            <OntClass label="CA3 stratum lacunosum moleculare" relation="located-in"
+                      synonym="CA3 part of stratum lacunosum moleculare|CA3 part of stratum lacunosum moleculare"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4125">
+                <OntClass label="Hippocampus CA3 lacunosum moleculare neuron" relation="located-in"
+                          synonym="CA3 LM interneurons|CA3 LM interneurons"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091214"/>
+            </OntClass>
+            <OntClass label="CA3 stratum radiatum" relation="located-in"
+                      synonym="CA3 part of stratum radiatum|CA3 part of stratum radiatum"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4121">
+                <OntClass label="Hippocampus CA3 radiatum neuron" relation="located-in"
+                          synonym="CA3 R interneuron|CA3 R interneuron"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091217"/>
+            </OntClass>
+            <OntClass label="CA3 stratum pyramidale hippocampi" relation="located-in"
+                      synonym="CA3 part of stratum pyramidale hippocampi|CA3 part of stratum pyramidale hippocampi"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4112">
+                <OntClass label="HippocampusCA3 pyramidal cell" relation="located-in"
+                          uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Hippocampus_CA3_pyramidal_cell"/>
+                <OntClass label="Hippocampus CA3 axo-axonic cell" relation="located-in"
+                          synonym="CA3 chandelier cell|CA3 chandelier cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091212"/>
+                <OntClass label="Hippocampus CA3 basket cell" relation="located-in"
+                          synonym="CA3 pyramidal basket cell|CA3 pyramidal basket cell"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091213"/>
+            </OntClass>
+            <OntClass label="CA3 stratum lucidum" relation="located-in"
+                      uri="http://nerged.cellandgrossanatomy.owl#nlx_anat_1005040">
+                <OntClass label="Hippocampus CA3 spiny CR cell" relation="located-in"
+                          synonym="CA3 Spiny CR immunoreactive cell|CA3 Spiny CR-positive interneurons|CA3 Spiny CR immunoreactive cell|CA3 Spiny CR-positive interneurons"
+                          uri="http://nerged.cellandgrossanatomy.owl#nlx_cell_091218"/>
+            </OntClass>
+            <OntClass label="CA3 stratum oriens" relation="located-in"
+                      synonym="CA3 part of stratum oriens|CA3 part of stratum oriens"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4117"/>
+        </OntClass>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PCs" label="Superior parietal cortex or subregion thereof">
+        <OntClass
+                definition="Component of the parietal lobe.  The rostral and caudal boundaries of the superior parietal cortex were the precentral gyrus and lateral occipital cortex respectively. The medial and lateral boundaries were the precuneus and/or cuneus cortex and the infererior parietal cortex respectively (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                label="Superior parietal cortex"
+                synonym="superior portion of parietal gyrus|Gyrus parietalis superior|superior parietal lobule|superior parietal gyrus|Superior parietal cortex|SPL|Lobulus parietalis superior|superior portion of parietal gyrus|Gyrus parietalis superior|superior parietal lobule|superior parietal gyrus|Superior parietal cortex|SPL|Lobulus parietalis superior"
+                uri="http://nerged.cellandgrossanatomy.owl#birnlex_1450">
+            <OntClass label="Superior parietal sulcus" relation="located-in"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4011"/>
+            <OntClass label="Transverse parietal sulcus" relation="located-in"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4009"/>
+            <OntClass label="Inferior Parietal Sulcus" relation="located-in"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4010"/>
+        </OntClass>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PMCvl" label="Ventrolateral premotor cortex or subregion thereof">
+        <OntClass label="Ventrolateral prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCvl"/>
+        <OntClass label="Centrolateral prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCcl"/>
+        <OntClass label="premotor cortex"
+                  synonym="premotor cortex|PM|intermediate precentral cortex|promotor cortex|premotor area|premotor cortex|PM|intermediate precentral cortex|promotor cortex|premotor area"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_2331"/>
+        <OntClass label="Dorsolateral premotor cortex or subregion thereof" uri="http://thevirtualbrain.org#PMCdl"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PFCvl" label="Ventrolateral prefrontal cortex or subregion thereof">
+        <OntClass label="Dorsomedial prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCdm"/>
+        <OntClass label="Dorsolateral prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCdl"/>
+        <OntClass label="Prefrontal cortex" uri="http://nerged.cellandgrossanatomy.owl#nlx_anat_090801">
+            <OntClass label="G-Protein Signaling" relation="unfolds-in"
+                      synonym="G-Protein Cascade|G-Protein signaling cascade|G-Protein signal transduction pathway|G-Protein pathway|G-Protein signal pathway|G-Protein signaling network|G-Protein signaling pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID1233">
+                <OntClass label="G alpha (q) signaling events"
+                          synonym="G alpha (q) signal transduction pathway|G alpha (q) signal pathway|G alpha (q) Cascade|G alpha (q) signaling|G alpha (q) signaling network|G alpha (q) signaling pathway|G alpha (q) pathway|G alpha (q) signaling cascade"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1722"/>
+                <OntClass label="G alpha (12/13) signaling events"
+                          synonym="G alpha (12/13) signaling pathway|G alpha (12/13) Cascade|G alpha (12/13) signaling network|G alpha (12/13) signaling|G alpha (12/13) signaling cascade|G alpha (12/13) signal pathway|G alpha (12/13) signal transduction pathway|G alpha (12/13) pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1639"/>
+                <OntClass label="gamma signaling - G-protein beta:gamma signaling"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1457"/>
+                <OntClass label="Histamine receptor signaling"
+                          synonym="Histamine receptor Cascade|Histamine receptor pathway|Histamine receptor signal pathway|Histamine receptor signal transduction pathway|Histamine receptor signaling cascade|Histamine receptor signaling pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1654"/>
+                <OntClass label="gamma signaling through PI3Kgamma - G beta - gamma signaling through PI3Kgamma"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2032"/>
+                <OntClass label="G alpha (s) signaling events"
+                          synonym="G alpha (s) signaling|G alpha (s) signal pathway|G alpha (s) signaling cascade|G alpha (s) signaling network|G alpha (s) Cascade|G alpha (s) pathway|G alpha (s) signal transduction pathway|G alpha (s) signaling pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1653"/>
+                <OntClass label="G alpha (i) signaling events"
+                          synonym="G alpha (i) signal transduction pathway|G alpha (i) pathway|G alpha (i) signal pathway|G alpha (i) Cascade|G alpha (i) signaling pathway|G alpha (i) signaling|G alpha (i) signaling cascade|G alpha (i) signaling network"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1799"/>
+                <OntClass label="G alpha (z) signaling events"
+                          synonym="G alpha (z) pathway|G alpha (z) signaling network|G alpha (z) signal pathway|G alpha (z) signaling pathway|G alpha (z) signal transduction pathway|G alpha (z) signaling|G alpha (z) Cascade|G alpha (z) signaling cascade"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1551"/>
+                <OntClass label="gamma signaling through PLC beta G beta - gamma signaling through PLC beta"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1419"/>
+                <OntClass label="GPCR signaling pathway"
+                          synonym="&quot;G-protein coupled receptor protein signaling pathway&quot;"
+                          uri="http://purl.obolibrary.org/obo/IEV_0000661">
+                    <OntClass label="GPCR downstream signaling" uri="http://scai.fraunhofer.de/PWDICT#ID1934"/>
+                    <OntClass label="fMLP signaling pathway" uri="http://purl.obolibrary.org/obo/IEV_0000163"/>
+                    <OntClass label="Rhodopsin mediated signaling pathway"
+                              uri="http://purl.obolibrary.org/obo/IEV_0000121">
+                        <OntClass label="Rhodopsin dark adaptation signaling"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0000759"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha s)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0000691">
+                        <OntClass label="Heterotrimeric GPCR signaling pathway (through Dopamine and G alpha s)"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0002637"/>
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through G alpha s, cholera toxin, adenylate cyclase and cAMP)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000707"/>
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through PACAP, G alpha s and adenylate cyclase, cAMP and PKA)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000276"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha o)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0002635">
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through melatonin, G alpha o and PLCbeta)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000773"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha q)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0002634">
+                        <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha q and PLC beta)"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0000748">
+                            <OntClass
+                                    label="Heterotrimeric GPCR signaling pathway (through glutamate, G alpha q and PLC beta)"
+                                    uri="http://purl.obolibrary.org/obo/IEV_0002653"/>
+                            <OntClass label="Heterotrimeric GPCR signaling pathway (through Angiotensin and G alpha q)"
+                                      uri="http://purl.obolibrary.org/obo/IEV_0002633"/>
+                        </OntClass>
+                    </OntClass>
+                    <OntClass label="beta-arrestins in GPCR Desensitization "
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1340"/>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha t)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0002636">
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through photon, rhodopsin, G alpha t and cGMP PDE)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000723"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha i)"
+                              synonym="&quot;Heterotrimeric GPCR signaling pathway (through G alpha i and pertussis toxin)&quot;"
+                              uri="http://purl.obolibrary.org/obo/IEV_0000692"/>
+                    <OntClass label="Endothelin receptor signaling" uri="http://purl.obolibrary.org/obo/IEV_0001693"/>
+                </OntClass>
+                <OntClass label="G protein mediated signaling pathway"
+                          synonym="G protein-mediated signaling cascade|G-protein-mediated signaling|G protein-mediated signaling pathway|G-protein mediated events|G protein mediated signaling cascade|G-protein-mediated signal pathway|G protein mediated signal transduction pathway|G protein-mediated Cascade|G protein mediated pathway|G protein mediated signal pathway|G protein mediated signaling|G protein-mediated pathway|heterotrimeric G protein mediated signaling pathway|G-protein-mediated Cascade|G protein mediated Cascade|G protein-mediated signal pathway|G-protein-mediated signal transduction pathway|G-protein-mediated pathway|G-protein-mediated signaling cascade|G-protein-mediated signaling pathway|G protein-mediated signaling|G protein-mediated signal transduction pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0128">
+                    <OntClass label="S1P3 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2318"/>
+                    <OntClass label="apelin signaling pathway"
+                              synonym="apelin Cascade|apelin pathway|apelin signal pathway|apelin signal transduction pathway|apelin signaling|apelin signaling cascade"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0465"/>
+                    <OntClass label="Visual Signal Transduction " synonym="optic pathway|visual pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1372">
+                        <OntClass label="anterior visual pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2883">
+                            <OntClass label="tectofugal pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3182"/>
+                        </OntClass>
+                        <OntClass label="magnocellular (M) pathway" synonym="M pathway|magnocellular pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID2775"/>
+                        <OntClass label="rod pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3154"/>
+                        <OntClass label="retinal ON cone pathway"
+                                  synonym="cone pathway of retinal|retinal  cone pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID2692"/>
+                        <OntClass label="Phototransduction" synonym="Phototransduction  pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID1057"/>
+                    </OntClass>
+                    <OntClass label="PLC beta mediated events" uri="http://scai.fraunhofer.de/PWDICT#ID1860"/>
+                    <OntClass label="Gi Pathway" synonym="GI reflex pathway|Gi-dependent Pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2795"/>
+                    <OntClass label="S1P2 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2317"/>
+                    <OntClass label="adenylyl cyclase pathway"
+                              synonym="adenylyl cyclase signaling pathway|adenylyl cyclase-camp pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2872">
+                        <OntClass label="Caspase cascade (not through mitochondria)"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0000938"/>
+                    </OntClass>
+                    <OntClass label="G alpha s pathway" synonym="G-Protein alpha-s signaling"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2999"/>
+                    <OntClass label="S1P5 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2320"/>
+                    <OntClass label="S1P4 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2319"/>
+                    <OntClass label="Beta 2 Adrenergic Receptor Pathway "
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1201"/>
+                    <OntClass label="S1P1 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2316"/>
+                    <OntClass label="G(12/13) pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2998">
+                        <OntClass label="G alpha 12-RhoGEF pathway"
+                                  synonym="G 12-RhoGEF pathway|G alpha 12/13-RhoGEF pathway |G12/13-RhoGEF pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID2803"/>
+                    </OntClass>
+                </OntClass>
+                <OntClass label="Attenuation of GPCR Signaling " synonym="GPCR Signaling Attenuation"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1134"/>
+            </OntClass>
+            <OntClass label="pain pathway" relation="unfolds-in" synonym="nociceptive pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID2590">
+                <OntClass label="arachidonic acid pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2889">
+                    <OntClass label="cox 2 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2952"/>
+                </OntClass>
+            </OntClass>
+            <OntClass label="dopamine signaling pathway" relation="unfolds-in"
+                      synonym="dopamine signal transduction pathway|dopaminergic pathway|dopamine signaling|dopamine Cascade|dopamine signaling cascade|dopamine pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID0403">
+                <OntClass label="altered dopamine signaling pathway"
+                          synonym="altered dopamine signaling|altered dopaminergic pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0404"/>
+                <OntClass label="mesolimbic dopamine pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3050"/>
+                <OntClass label="mesocorticolimbic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2675"/>
+                <OntClass label="dopamine signaling pathway via D1 family of receptors"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0851">
+                    <OntClass label="G protein mediated signaling pathway via Galphas family"
+                              synonym="G protein mediated signaling pathway via G alpha s family|G protein-mediated signaling pathway via G alpha s family|G protein-mediated signaling pathway via Galphas family|G-protein-mediated signaling pathway via G alpha s family|G-protein-mediated signaling pathway via Galphas family"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0231"/>
+                </OntClass>
+                <OntClass label="mesocortical dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2330"/>
+                <OntClass label="mesolimbic dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2329"/>
+                <OntClass label="mesoaccumbens dopamine pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2466"/>
+                <OntClass label="mesostriatal pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2361">
+                    <OntClass label="mesostriatal dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2360"/>
+                </OntClass>
+                <OntClass label="dopamine signaling pathway via D2 family of receptors"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0852"/>
+            </OntClass>
+            <OntClass label="Glucose metabolism" relation="unfolds-in"
+                      synonym="Metabolism of glucose|metabolic pathway of glucose|glucose metabolism pathway|glucose metabolic pathway|pathway of glucose metabolism"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID1892">
+                <OntClass label="Glycogen synthesis"
+                          synonym="glycogen synthesis pathway|Glycogen biosynthesis pathway|glycogen biosynthesis pathway|glycogen biosynthetic pathway|Biosynthesis of Glycogen|biosynthetic pathway of glycogen|Glycogen synthetic pathway|Glycogen biosynthetic pathway|synthesis of Glycogen|glycogen synthetic pathway|biosynthetic pathway of Glycogen|synthetic pathway of Glycogen|synthesis of glycogen|Biosynthesis of glycogen|Glycogen synthesis pathway|glycogen biosynthesis|synthetic pathway of glycogen|glycogen synthesis|glycogenesis"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2025">
+                    <OntClass label="Glycosaminoglycan biosynthesis - chondroitin sulfate"
+                              synonym="Biosynthesis of GAG|GAG biosynthesis pathway|synthesis of Glycosaminoglycan|Glycosaminoglycan synthesis|Glycosaminoglycan biosynthesis|Glycosaminoglycan biosynthetic pathway - chondroitin sulfate|GAG synthesis|biosynthetic pathway of Glycosaminoglycan|Biosynthesis of Glycosaminoglycan|Glycosaminoglycan biosynthesis pathway|Glycosaminoglycan synthetic pathway|synthetic pathway of Glycosaminoglycan|biosynthetic pathway of GAG|GAG synthetic pathway|synthesis of GAG|GAG synthesis pathway|Glycosaminoglycan biosynthetic pathway|synthetic pathway of GAG|GAG biosynthetic pathway|GAG biosynthesis|Glycosaminoglycan synthesis pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0926">
+                        <OntClass label="Glycosaminoglycan biosynthesis - heparan sulfate"
+                                  synonym="Glycosaminoglycan biosynthetic pathway - heparan sulfate"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID0927"/>
+                    </OntClass>
+                    <OntClass label="altered glycogen biosynthetic pathway" synonym="altered glycogen biosynthesis"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0649"/>
+                </OntClass>
+                <OntClass label="Rgt1 in Yeast Glucose Induction Pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1324"/>
+            </OntClass>
+            <OntClass label="neural pathway" relation="unfolds-in" synonym="mesocortical pathway|neurogenic pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID2656">
+                <OntClass label="neuronal pathway" synonym="CTC pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3077">
+                    <OntClass label="gabaergic pathway" synonym="GABA(A) receptor signalling"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3001"/>
+                    <OntClass label="neurotrophic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3078"/>
+                    <OntClass label="neuronal death pathway" synonym="neuronal apoptosis|neuronal apoptotic pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3076"/>
+                </OntClass>
+                <OntClass label="sinonasal parasympathetic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2746"/>
+                <OntClass label="interlimb pathway"
+                          synonym="interlimb neural pathway|interlimb reflex pathway|interlimb spinal pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2715"/>
+                <OntClass label="physiological response pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2576"/>
+                <OntClass label="neurocognitive pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2713">
+                    <OntClass label="glutamate-NO-cGMP pathway"
+                              synonym="glutamate receptor/NO/cGMP pathway|glutamate-nitric oxide-cyclic GMP pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3004">
+                        <OntClass
+                                label="glutamate-nitric oxide-cyclic guanosine 3'5'-monophosphate (cyclic GMP) pathway"
+                                uri="http://scai.fraunhofer.de/PWDICT#ID2560"/>
+                    </OntClass>
+                </OntClass>
+                <OntClass label="tinnitus dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2441"/>
+                <OntClass label="Erythropoietin mediated neuroprotection through NF-kB "
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1216"/>
+                <OntClass label="nigrostriatal pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2385">
+                    <OntClass label="nigrostriatal DA pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2408"/>
+                    <OntClass label="nigrostriatal dopamine pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3080"/>
+                    <OntClass label="nigrostriatal dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2490"/>
+                </OntClass>
+                <OntClass label="monosynaptic reflex pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3062"/>
+                <OntClass label="schaffer collateral CA1 pathway" synonym="schaffer collateral commissural pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID3158"/>
+                <OntClass label="olfactory nerve pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3090"/>
+                <OntClass label="micturition reflex pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3055"/>
+            </OntClass>
+            <OntClass label="serotonin metabolic pathway" relation="unfolds-in"
+                      synonym="serotonin metabolism pathway|serotonin metabolism|Metabolism of serotonin|metabolic pathway of serotonin"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID0419"/>
+        </OntClass>
+        <OntClass label="Medial prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCm">
+            <OntClass label="medial prefrontal cortex (human)"
+                      synonym="medial prefrontal cortex human|medial prefrontal cortex|medial prefrontal cortex (human)|medial prefrontal cortex human|medial prefrontal cortex|medial prefrontal cortex (human)"
+                      uri="http://nerged.cellandgrossanatomy.owl#NN_1352"/>
+        </OntClass>
+        <OntClass label="Pole of prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCpol"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PFCm" label="Medial prefrontal cortex or subregion thereof">
+        <OntClass label="medial prefrontal cortex (human)"
+                  synonym="medial prefrontal cortex human|medial prefrontal cortex|medial prefrontal cortex (human)|medial prefrontal cortex human|medial prefrontal cortex|medial prefrontal cortex (human)"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_1352"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PCi" label="Inferior parietal cortex or subregion thereof">
+        <OntClass
+                definition="Component of the parietal lobe.  The inferior parietal cortex label includes the inferior parietal gyrus and the angular gyrus and lies inferior to the superior parietal gyrus. The rostral and caudal boundaries were the supramarginal gyrus and the parieto-occipital incisure respectively. The medial and lateral boundaries were the superior parietal gyrus and the middle temporal gyrus respectively (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                label="Inferior parietal cortex"
+                synonym="inferior parietal gyrus|inferior portion of parietal gyrus|Inferior parietal cortex|inferior parietal lobule|IPL|Lobulus parietalis inferior|inferior parietal gyrus|inferior portion of parietal gyrus|Inferior parietal cortex|inferior parietal lobule|IPL|Lobulus parietalis inferior"
+                uri="http://nerged.cellandgrossanatomy.owl#birnlex_1194"/>
+        <OntClass label="Regional part of inferior parietal cortex"
+                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_1364">
+            <OntClass label="Predominantly Gray regional part of inferior parietal cortex"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_1371">
+                <OntClass label="Angular gyrus"
+                          synonym="middle part of inferior parietal lobule|Gyrus angularis|angular gyrus|Gyrus parietalis inferior|AnG|Angular gyrus|middle part of inferior parietal lobule|Gyrus angularis|angular gyrus|Gyrus parietalis inferior|AnG|Angular gyrus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_1376">
+                    <OntClass label="Angular sulcus" relation="located-in"
+                              synonym="Angular sulcus|anterior calcarine sulcus human|anterior calcarine fissure|acs|anterior calcarine sulcus|Sulcus calcarinus anterior|anterior calcarine sulcus (human)|Angular sulcus|anterior calcarine sulcus human|anterior calcarine fissure|acs|anterior calcarine sulcus|Sulcus calcarinus anterior|anterior calcarine sulcus (human)"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_4012"/>
+                </OntClass>
+                <OntClass
+                        definition="Component of the parietal lobe.  The first coronal slice between the superior temporal gyrus and the postcentral gyrus where the supramarginal gyrus appears was the rostral boundary whereas the slice where the supramarginal gyrus becomes continuous with the superior parietal gyrus was the caudal boundary. The medial and lateral boundaries were the lateral banks of the intraparietal sulcus and the medial banks of the lateral fissure and/or the superior temporal gyrus respectively (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                        label="Supramarginal gyrus"
+                        synonym="SMG|Supramarginal gyrus|supramarginal gyrus|Gyrus supramarginalis|anterior part of inferior parietal lobule|SMG|Supramarginal gyrus|supramarginal gyrus|Gyrus supramarginalis|anterior part of inferior parietal lobule"
+                        uri="http://nerged.cellandgrossanatomy.owl#birnlex_1381"/>
+            </OntClass>
+        </OntClass>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#A1" label="Primary auditory cortex or subregion thereof">
+        <OntClass label="primary auditory area"
+                  synonym="primary auditory cortex|A I|primary auditory area|primary auditory cortex|A I|primary auditory area"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_1354"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#A2" label="Secondary auditory cortex or subregion thereof">
+        <OntClass label="auditory cortex"
+                  synonym="temporal auditory areas|auditory area|auditory cortex|temporal auditory areas|auditory area|auditory cortex"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_1556"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PHC" label="Parahippocampal cortex or subregion thereof">
+        <OntClass label="parahippocampal white matter"
+                  synonym="phw|parahippocampal white matter|Substantia medullaris parahippocampalis|phw|parahippocampal white matter|Substantia medullaris parahippocampalis"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_822"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PCm" label="Medial parietal cortex (= Precuneus) or subregion thereof">
+        <OntClass
+                definition="Component of the pareital lobe.  The rostral boundary was the posterior extent of the paracentral lobule whereas the caudal boundary was the lingual gyrus. The medial and lateral boundaries were the parieto-occipital fissure and the superior parietal gyrus respectively (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                label="Precuneus cortex"
+                synonym="Precuneus|precuneate lobule|quadrate lobule|Praecuneus|PCu|Precuneus cortex|precuneus|Precuneus|precuneate lobule|quadrate lobule|Praecuneus|PCu|Precuneus cortex|precuneus"
+                uri="http://nerged.cellandgrossanatomy.owl#birnlex_1446">
+            <OntClass label="Superior parietal sulcus" relation="located-in"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4011"/>
+            <OntClass label="Carbohydrate Metabolism" relation="unfolds-in"
+                      synonym="carbohydrate metabolism pathway|complex carbohydrates metabolism pathway|&quot;carbohydrate metabolic process&quot;|Metabolism of complex carbohydrates|Metabolism of carbohydrate|carbohydrate metabolism|complex carbohydrates metabolic pathway|metabolic pathway of complex carbohydrates|carbohydrate metabolic pathway|metabolic pathway of carbohydrate|complex carbohydrates metabolism"
+                      uri="http://purl.obolibrary.org/obo/IEV_0001422">
+                <OntClass label="C5-Branched dibasic acid metabolism"
+                          synonym="metabolic pathway of C5-Branched dibasic acid|Metabolism of C5-Branched dibasic acid|C5-Branched dibasic acid metabolism pathway|C5-branched dibasic acid metabolic pathway"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001428"/>
+                <OntClass label="Glyoxylate metabolism"
+                          synonym="Metabolism of Glyoxylate|metabolic pathway of Glyoxylate|Glyoxylate metabolism pathway|Glyoxylate metabolic pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2161"/>
+                <OntClass label="Galactose metabolism"
+                          synonym="Gal metabolic pathway|Gal metabolism pathway|Galactose metabolism|Metabolism of Galactose|metabolic pathway of Gal|galactose metabolic pathway|metabolic pathway of galactose|Metabolism of Gal|Galactose metabolism pathway|&quot;galactose metabolic process&quot;|Gal metabolism"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001418">
+                    <OntClass label="altered galactose metabolic pathway" synonym="altered galactose metabolism"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0312"/>
+                </OntClass>
+                <OntClass label="Glycolysis and Gluconeogenesis" uri="http://purl.obolibrary.org/obo/IEV_0001413"/>
+                <OntClass label="starch metabolic pathway"
+                          synonym="Metabolism of starch|metabolic pathway of starch|pathway of starch metabolism|starch metabolism|starch metabolism pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0155"/>
+                <OntClass label="Novobiocin biosynthesis"
+                          synonym="novobiocin biosynthetic pathway|Novobiocin biosynthesis pathway|synthesis of Novobiocin|Novobiocin synthesis|&quot;novobiocin biosynthetic process&quot;|Novobiocin synthetic pathway|synthetic pathway of Novobiocin|biosynthetic pathway of Novobiocin|Novobiocin synthesis pathway|Biosynthesis of Novobiocin|Novobiocin biosynthesis"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001533"/>
+                <OntClass label="glycogen metabolic pathway"
+                          synonym="Metabolism of glycogen|glycogen metabolism|glycogen metabolism pathway|metabolic pathway of glycogen"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0541">
+                    <OntClass label="altered glycogen metabolic pathway" synonym="altered glycogen metabolism"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0648"/>
+                </OntClass>
+                <OntClass label="Aminosugars metabolism"
+                          synonym="&quot;amino sugar metabolic process&quot;|&quot;aminosaccharide metabolism&quot;|&quot;amino sugar metabolism&quot;|&quot;aminosaccharide metabolic process&quot;"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001421"/>
+                <OntClass label="fructose metabolic pathway"
+                          synonym="Metabolism of fructose|fructose metabolism|fructose metabolism pathway|metabolic pathway of fructose|pathway of fructose metabolism"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0041"/>
+                <OntClass label="nucleotide sugar metabolic pathway"
+                          synonym="Metabolism of nucleotide sugar|metabolic pathway of nucleotide sugar|nucleotide sugar metabolism|nucleotide sugar metabolism pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0056">
+                    <OntClass label="nucleotide sugar biosynthetic pathway"
+                              synonym="nucleotide sugar synthesis|nucleotide sugar synthesis pathway|synthesis of nucleotide sugar|biosynthetic pathway of nucleotide sugar|nucleotide sugar synthetic pathway|synthetic pathway of nucleotide sugar|nucleotide sugar biosynthesis pathway|Biosynthesis of nucleotide sugar|nucleotide sugar biosynthesis"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0877"/>
+                </OntClass>
+                <OntClass label="Gastric acid secretion" synonym="Gastric acid secretion pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1037"/>
+                <OntClass label="aldarate metabolic pathway"
+                          synonym="Metabolism of aldarate|aldarate metabolism|aldarate metabolism pathway|metabolic pathway of aldarate|pathway of aldarate metabolism"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0063"/>
+                <OntClass label="Pentose phosphate pathway"
+                          synonym="pentosephosphate pathway|&quot;pentose-phosphate shunt&quot;|hexose monophosphate shunt|&quot;pentose-phosphate pathway&quot;|&quot;pentose phosphate shunt&quot;|pentose phosphate (pp) pathway|phosphogluconate pathway|hexose monophosphate shunt pathway|pentose phosphate (PPP) pathway|PPP pathway|pp pathway"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001414">
+                    <OntClass label="hexose monophosphate pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3016"/>
+                </OntClass>
+                <OntClass label="sucrose metabolic pathway"
+                          synonym="Metabolism of sucrose|metabolic pathway of sucrose|pathway of sucrose metabolism|sucrose metabolism|sucrose metabolism pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0156"/>
+                <OntClass label="Pentose and glucuronate interconversions"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001416"/>
+                <OntClass label="Glucose metabolism"
+                          synonym="Metabolism of glucose|metabolic pathway of glucose|glucose metabolism pathway|glucose metabolic pathway|pathway of glucose metabolism"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1892">
+                    <OntClass label="Glycogen synthesis"
+                              synonym="glycogen synthesis pathway|Glycogen biosynthesis pathway|glycogen biosynthesis pathway|glycogen biosynthetic pathway|Biosynthesis of Glycogen|biosynthetic pathway of glycogen|Glycogen synthetic pathway|Glycogen biosynthetic pathway|synthesis of Glycogen|glycogen synthetic pathway|biosynthetic pathway of Glycogen|synthetic pathway of Glycogen|synthesis of glycogen|Biosynthesis of glycogen|Glycogen synthesis pathway|glycogen biosynthesis|synthetic pathway of glycogen|glycogen synthesis|glycogenesis"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2025">
+                        <OntClass label="Glycosaminoglycan biosynthesis - chondroitin sulfate"
+                                  synonym="Biosynthesis of GAG|GAG biosynthesis pathway|synthesis of Glycosaminoglycan|Glycosaminoglycan synthesis|Glycosaminoglycan biosynthesis|Glycosaminoglycan biosynthetic pathway - chondroitin sulfate|GAG synthesis|biosynthetic pathway of Glycosaminoglycan|Biosynthesis of Glycosaminoglycan|Glycosaminoglycan biosynthesis pathway|Glycosaminoglycan synthetic pathway|synthetic pathway of Glycosaminoglycan|biosynthetic pathway of GAG|GAG synthetic pathway|synthesis of GAG|GAG synthesis pathway|Glycosaminoglycan biosynthetic pathway|synthetic pathway of GAG|GAG biosynthetic pathway|GAG biosynthesis|Glycosaminoglycan synthesis pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID0926">
+                            <OntClass label="Glycosaminoglycan biosynthesis - heparan sulfate"
+                                      synonym="Glycosaminoglycan biosynthetic pathway - heparan sulfate"
+                                      uri="http://scai.fraunhofer.de/PWDICT#ID0927"/>
+                        </OntClass>
+                        <OntClass label="altered glycogen biosynthetic pathway" synonym="altered glycogen biosynthesis"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID0649"/>
+                    </OntClass>
+                    <OntClass label="Rgt1 in Yeast Glucose Induction Pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1324"/>
+                </OntClass>
+                <OntClass label="Inositol metabolism"
+                          synonym="inositol metabolism pathway|&quot;vitamin Bh metabolic process&quot;|Metabolism of inositol|inositol metabolism|&quot;inositol metabolic process&quot;|inositol metabolic pathway|metabolic pathway of inositol|&quot;vitamin Bh metabolism&quot;"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001429">
+                    <OntClass label="Inositol phosphate metabolism"
+                              synonym="&quot;inositol phosphate metabolic process&quot;|Inositol phosphate metabolism|inositol phosphate (IP) metabolic pathway|IP metabolic pathway|metabolic pathway of Inositol phosphate|Metabolism of inositol phosphate|Inositol phosphate metabolism pathway"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001430"/>
+                </OntClass>
+                <OntClass label="amino sugar metabolic pathway"
+                          synonym="Metabolism of amino sugar|amino sugar metabolism|amino sugar metabolism pathway|metabolic pathway of amino sugar"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0157">
+                    <OntClass
+                            label="N-acetylglucosamine, N-acetylmannosamine and N-acetylneuraminic acid dissimilation pathway"
+                            uri="http://scai.fraunhofer.de/PWDICT#ID0228"/>
+                    <OntClass label="hexosamine metabolic pathway"
+                              synonym="Metabolism of hexosamine|hexosamine metabolism|hexosamine metabolism pathway|metabolic pathway of hexosamine"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0578"/>
+                </OntClass>
+                <OntClass label="Citrate cycle (TCA cycle)"
+                          synonym="TCA cycle pathway|TCA cycle|&quot;tricarboxylic acid cycle&quot;|Krebs cycle pathway|&quot;citric acid cycle&quot;|tricarboxylic acid (TCA) cycle|tricarboxylic acid cycle pathway|Citric acid cycle|Citric acid cycle pathway|&quot;Krebs cycle&quot;"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001415">
+                    <OntClass label="acetyl CoA pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2606"/>
+                </OntClass>
+                <OntClass label="Carbohydrate absorption" synonym="Carbohydrate absorption pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1041"/>
+                <OntClass label="Fructose and mannose metabolism" uri="http://purl.obolibrary.org/obo/IEV_0001417"/>
+                <OntClass label="dicarboxylate metabolic pathway"
+                          synonym="Metabolism of dicarboxylate|dicarboxylate metabolism|dicarboxylate metabolism pathway|metabolic pathway of dicarboxylate|pathway of dicarboxylate metabolism"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0064"/>
+                <OntClass label="Streptomycin biosynthesis"
+                          synonym="Streptomycin biosynthesis|biosynthetic pathway of Streptomycin|&quot;streptomycin formation&quot;|synthetic pathway of Streptomycin|&quot;streptomycin biosynthetic process&quot;|Streptomycin biosynthesis pathway|Streptomycin synthesis|&quot;streptomycin anabolism&quot;|&quot;streptomycin synthesis&quot;|Streptomycin synthetic pathway|synthesis of Streptomycin|streptomycin biosynthetic pathway|Streptomycin synthesis pathway|Biosynthesis of Streptomycin"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001529"/>
+                <OntClass label="pentose pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3104">
+                    <OntClass label="L-type pentose pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3039"/>
+                </OntClass>
+                <OntClass label="Carbohydrate digestion" synonym="Carbohydrate digestion pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1040">
+                    <OntClass label="Digestion of dietary carbohydrate" uri="http://scai.fraunhofer.de/PWDICT#ID1776"/>
+                </OntClass>
+                <OntClass label="Starch and sucrose metabolism" uri="http://purl.obolibrary.org/obo/IEV_0001420"/>
+                <OntClass label="Butanoate metabolism"
+                          synonym="Butanoate metabolism|metabolic pathway of Butanoate|Butanoate metabolism pathway|Metabolism of Butanoate|butanoate metabolic pathway"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001427"/>
+                <OntClass label="altered carbohydrate metabolic pathway" synonym="altered carbohydrate metabolism"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0311"/>
+                <OntClass label="Fructose catabolism"
+                          synonym="Fructose catabolic pathway|Fructose catabolism pathway|catabolic pathway of Fructose|catabolism of Fructose"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1899"/>
+                <OntClass label="Glycan Biosynthesis and Metabolism" uri="http://purl.obolibrary.org/obo/IEV_0001558">
+                    <OntClass label="O-Glycan biosynthesis" uri="http://purl.obolibrary.org/obo/IEV_0001477"/>
+                    <OntClass label="Glycosphingolipid biosynthesis-lactoseries"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001495"/>
+                    <OntClass label="N-Glycan biosynthesis" uri="http://purl.obolibrary.org/obo/IEV_0001474"/>
+                    <OntClass label="Glycosphingolipid biosynthesis-ganglioseries"
+                              synonym="&quot;ganglioside formation&quot;|&quot;ganglioside biosynthetic process&quot;|&quot;ganglioside biosynthesis&quot;|&quot;ganglioside synthesis&quot;|&quot;ganglioside anabolism&quot;"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001498"/>
+                    <OntClass label="Mucin type O-Glycan biosynthesis"
+                              synonym="Mucin type O-Glycan biosynthetic pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0924"/>
+                    <OntClass label="N-Glycan degradation"
+                              synonym="N-Glycan degradative pathway|N-Glycan degradation pathway|degradative pathway of N-Glycan|degradation pathway of N-Glycan|degradation of N-Glycan"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001476"/>
+                    <OntClass label="Glycosphingolipid biosynthesis-globoseries"
+                              synonym="&quot;globoside metabolic process&quot;|&quot;globoside metabolism&quot;|Glycosphingolipid biosynthetic pathway - globo series|Glycosphingolipid biosynthesis - globo series"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001497"/>
+                    <OntClass label="Other glycan degradation"
+                              synonym="Other glycan degradation pathway|degradation of Other glycan"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0934"/>
+                    <OntClass label="High-mannose type N-glycan biosynthesis"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001475"/>
+                    <OntClass label="Glycosaminoglycan biosynthesis - chondroitin sulfate"
+                              synonym="Biosynthesis of GAG|GAG biosynthesis pathway|synthesis of Glycosaminoglycan|Glycosaminoglycan synthesis|Glycosaminoglycan biosynthesis|Glycosaminoglycan biosynthetic pathway - chondroitin sulfate|GAG synthesis|biosynthetic pathway of Glycosaminoglycan|Biosynthesis of Glycosaminoglycan|Glycosaminoglycan biosynthesis pathway|Glycosaminoglycan synthetic pathway|synthetic pathway of Glycosaminoglycan|biosynthetic pathway of GAG|GAG synthetic pathway|synthesis of GAG|GAG synthesis pathway|Glycosaminoglycan biosynthetic pathway|synthetic pathway of GAG|GAG biosynthetic pathway|GAG biosynthesis|Glycosaminoglycan synthesis pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0926"/>
+                    <OntClass label="Chondroitin sulfate biosynthesis"
+                              synonym="&quot;chondroitin sulphate biosynthesis&quot;|chondroitin sulfate biosynthetic pathway|Biosynthesis of chondroitin sulfate|chondroitin sulfate biosynthesis pathway|chondroitin sulfate synthetic pathway|&quot;chondroitin sulfate biosynthetic process&quot;|chondroitin sulfate synthesis pathway|&quot;chondroitin sulfate anabolism&quot;|&quot;chondroitin sulfate synthesis&quot;|chondroitin sulfate biosynthesis|synthesis of chondroitin sulfate|biosynthetic pathway of chondroitin sulfate|&quot;chondroitin sulfate formation&quot;"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001478"/>
+                    <OntClass label="Heparan sulfate biosynthesis" uri="http://purl.obolibrary.org/obo/IEV_0001878"/>
+                    <OntClass label="Keratan sulfate biosynthesis"
+                              synonym="keratan sulfate synthesis pathway|&quot;keratan sulphate biosynthesis&quot;|synthesis of keratan sulfate|keratan sulfate biosynthesis pathway|&quot;keratan sulfate synthesis&quot;|keratan sulfate biosynthetic pathway|&quot;keratan sulfate anabolism&quot;|&quot;keratan sulfate formation&quot;|synthetic pathway of keratan sulfate|&quot;keratan sulfate biosynthetic process&quot;|&quot;keratan sulphate biosynthetic process&quot;|Biosynthesis of keratan sulfate|biosynthetic pathway of keratan sulfate|keratan sulfate synthetic pathway"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001489"/>
+                    <OntClass label="Glycosphingolipid biosynthesis-neo-lactoseries"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001496"/>
+                    <OntClass label="Glycosphingolipid biosynthesis - ganglio series"
+                              synonym="Glycosphingolipid biosynthetic pathway - ganglio series"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0933"/>
+                    <OntClass label="Glycosaminoglycan degradation"
+                              synonym="GAG degradation pathway|&quot;glycosaminoglycan breakdown&quot;|&quot;glycosaminoglycan catabolic process&quot;|degradation pathway of Glycosaminoglycan|Glycosaminoglycan degradative pathway|Glycosaminoglycan degradation pathway|degradation of GAG|GAG degradative pathway|degradative pathway of GAG|&quot;glycosaminoglycan catabolism&quot;|degradation pathway of GAG|degradation of Glycosaminoglycan|GAG degradation|degradative pathway of Glycosaminoglycan"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001490"/>
+                    <OntClass label="Other types of O-glycan biosynthesis"
+                              synonym="Other types of O-glycan biosynthetic pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0925"/>
+                    <OntClass label="Lipopolysaccharide biosynthesis"
+                              synonym="biosynthetic pathway of LPS|LPS biosynthesis pathway|synthetic pathway of LPS|Lipopolysaccharide biosynthesis|&quot;lipopolysaccharide synthesis&quot;|LPS biosynthetic pathway|lipopolysaccharide biosynthetic pathway|Lipopolysaccharide synthesis pathway|biosynthetic pathway of Lipopolysaccharide|Biosynthesis of LPS|&quot;lipopolysaccharide biosynthetic process&quot;|LPS synthetic pathway|LPS synthesis|Lipopolysaccharide synthesis|synthetic pathway of Lipopolysaccharide|Lipopolysaccharide synthetic pathway|Biosynthesis of Lipopolysaccharide|&quot;lipopolysaccharide formation&quot;|synthesis of Lipopolysaccharide|&quot;lipopolysaccharide anabolism&quot;|LPS biosynthesis|LPS synthesis pathway|Lipopolysaccharide biosynthesis pathway|synthesis of LPS"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001491"/>
+                    <OntClass label="Glycosylphosphatidylinositol(GPI)-anchor biosynthesis"
+                              synonym="synthetic pathway of Glycosylphosphatidylinositol(GPI)-anchor|glycosylphosphatidylinositol biosynthetic pathway|synthesis of Glycosylphosphatidylinositol(GPI)-anchor|&quot;GPI anchor formation&quot;|glycosylphosphatidylinositol anchor biosynthetic pathway|Synthesis of glycosylphosphatidylinositol (GPI)|GPI anchor synthesis pathway|Biosynthesis of GPI anchor|synthetic pathway of GPI anchor|synthesis of glycosylphosphatidylinositol anchor|&quot;GPI anchor synthesis&quot;|GPI anchor synthetic pathway|biosynthetic pathway of glycosylphosphatidylinositol (GPI)|glycosylphosphatidylinositol (GPI) synthesis pathway|Biosynthesis of glycosylphosphatidylinositol anchor|synthetic pathway of glycosylphosphatidylinositol|GPI anchor biosynthetic pathway|glycosylphosphatidylinositol biosynthesis pathway|biosynthetic pathway of glycosylphosphatidylinositol anchor|GPI biosynthesis pathway|glycosylphosphatidylinositol anchor synthetic pathway|GPI anchor biosynthesis|glycosylphosphatidylinositol anchor synthesis pathway|Biosynthesis of glycosylphosphatidylinositol (GPI)|synthesis of GPI|GPI synthesis pathway|glycosylphosphatidylinositol anchor biosynthesis|synthesis of glycosylphosphatidylinositol|glycosylphosphatidylinositol (GPI) synthetic pathway|GPI synthesis|Biosynthesis of glycosylphosphatidylinositol|synthetic pathway of glycosylphosphatidylinositol anchor|GPI anchor biosynthesis pathway|GPI biosynthetic pathway|glycosylphosphatidylinositol (GPI) biosynthetic pathway|GPI biosynthesis|synthetic pathway of GPI|glycosylphosphatidylinositol anchor synthesis|&quot;GPI anchor biosynthetic process&quot;|glycosylphosphatidylinositol (GPI) biosynthesis|Glycosylphosphatidylinositol(GPI)-anchor synthetic pathway|biosynthetic pathway of GPI anchor|biosynthetic pathway of glycosylphosphatidylinositol|&quot;GPI anchor anabolism&quot;|synthetic pathway of glycosylphosphatidylinositol (GPI)|synthesis of GPI anchor|glycosylphosphatidylinositol (GPI) biosynthesis pathway|GPI anchor synthesis|Biosynthesis of GPI|synthesis of glycosylphosphatidylinositol (GPI)|Glycosylphosphatidylinositol(GPI)-anchor biosynthesis|glycosylphosphatidylinositol synthetic pathway|Glycosylphosphatidylinositol(GPI)-anchor synthesis pathway|&quot;glycosylphosphatidylinositol biosynthetic process&quot;|GPI synthetic pathway|glycosylphosphatidylinositol synthesis pathway|&quot;glycosylphosphatidylinositol biosynthesis&quot;|glycosylphosphatidylinositol biosynthesis|biosynthetic pathway of GPI|glycosylphosphatidylinositol (GPI) synthesis|glycosylphosphatidylinositol anchor biosynthesis pathway|glycosylphosphatidylinositol synthesis"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001493"/>
+                    <OntClass label="Glycosaminoglycan biosynthesis - keratan sulfate"
+                              synonym="Glycosaminoglycan biosynthetic pathway - keratan sulfate"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0928"/>
+                    <OntClass label="Peptidoglycan biosynthesis"
+                              synonym="PG biosynthetic pathway|murein synthetic pathway|&quot;peptidoglycan formation&quot;|Biosynthesis of Peptidoglycan|Peptidoglycan synthesis pathway|murein biosynthesis pathway|Peptidoglycan synthetic pathway|&quot;peptidoglycan anabolism&quot;|&quot;murein biosynthetic process&quot;|&quot;murein biosynthesis&quot;|synthesis of murein|synthetic pathway of Peptidoglycan|biosynthetic pathway of Peptidoglycan|murein biosynthetic pathway|murein synthesis|biosynthetic pathway of murein|Peptidoglycan synthesis|Peptidoglycan biosynthesis|synthetic pathway of murein|peptidoglycan (PG) biosynthesis|&quot;peptidoglycan synthesis&quot;|&quot;peptidoglycan biosynthetic process&quot;|Peptidoglycan biosynthesis pathway|murein synthesis pathway|Biosynthesis of murein|PG biosynthesis|synthesis of Peptidoglycan|murein biosynthesis|peptidoglycan biosynthetic pathway"
+                              uri="http://purl.obolibrary.org/obo/IEV_0001492"/>
+                    <OntClass label="Glycosphingolipid biosynthesis - lacto and neolacto series"
+                              synonym="Glycosphingolipid biosynthetic pathway - lacto and neolacto series"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0931"/>
+                </OntClass>
+                <OntClass label="Propanoate metabolism"
+                          synonym="propionate ion metabolism|Metabolism of propionate ion|Metabolism of Propanoate|metabolic pathway of propionate ion|propionate ion metabolism pathway|propionate ion metabolic pathway|propanoate metabolic pathway|metabolic pathway of Propanoate|Propanoate metabolism|Propanoate metabolism pathway"
+                          uri="http://purl.obolibrary.org/obo/IEV_0001426"/>
+                <OntClass label="mannose metabolic pathway"
+                          synonym="Metabolism of mannose|mannose metabolism|mannose metabolism pathway|metabolic pathway of mannose|pathway of mannose metabolism"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0040"/>
+            </OntClass>
+            <OntClass label="Transverse parietal sulcus" relation="located-in"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4009"/>
+            <OntClass label="Inferior Parietal Sulcus" relation="located-in"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_4010"/>
+        </OntClass>
+        <OntClass label="medial parietal gyrus"
+                  synonym="medial parietal gyrus|Gyrus parietalis medialis|medial parietal gyrus|Gyrus parietalis medialis"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_1578"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PFCdl" label="Dorsolateral prefrontal cortex or subregion thereof">
+        <OntClass label="area 9 of Brodmann-1909 (human)"
+                  synonym="Area frontalis granularis|granular frontal area 9|Brodmann's area 9|area 9 of Brodmann-1909 (human)|Area frontalis granularis|granular frontal area 9|Brodmann's area 9|area 9 of Brodmann-1909 (human)"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_2398"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PFCdm" label="Dorsomedial prefrontal cortex or subregion thereof">
+        <OntClass label="medial prefrontal cortex (human)"
+                  synonym="medial prefrontal cortex human|medial prefrontal cortex|medial prefrontal cortex (human)|medial prefrontal cortex human|medial prefrontal cortex|medial prefrontal cortex (human)"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_1352"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PFCcl" label="Centrolateral prefrontal cortex or subregion thereof">
+        <OntClass label="Dorsomedial prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCdm"/>
+        <OntClass label="Dorsolateral prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCdl"/>
+        <OntClass label="Prefrontal cortex" uri="http://nerged.cellandgrossanatomy.owl#nlx_anat_090801">
+            <OntClass label="G-Protein Signaling" relation="unfolds-in"
+                      synonym="G-Protein Cascade|G-Protein signaling cascade|G-Protein signal transduction pathway|G-Protein pathway|G-Protein signal pathway|G-Protein signaling network|G-Protein signaling pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID1233">
+                <OntClass label="G alpha (q) signaling events"
+                          synonym="G alpha (q) signal transduction pathway|G alpha (q) signal pathway|G alpha (q) Cascade|G alpha (q) signaling|G alpha (q) signaling network|G alpha (q) signaling pathway|G alpha (q) pathway|G alpha (q) signaling cascade"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1722"/>
+                <OntClass label="G alpha (12/13) signaling events"
+                          synonym="G alpha (12/13) signaling pathway|G alpha (12/13) Cascade|G alpha (12/13) signaling network|G alpha (12/13) signaling|G alpha (12/13) signaling cascade|G alpha (12/13) signal pathway|G alpha (12/13) signal transduction pathway|G alpha (12/13) pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1639"/>
+                <OntClass label="gamma signaling - G-protein beta:gamma signaling"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1457"/>
+                <OntClass label="Histamine receptor signaling"
+                          synonym="Histamine receptor Cascade|Histamine receptor pathway|Histamine receptor signal pathway|Histamine receptor signal transduction pathway|Histamine receptor signaling cascade|Histamine receptor signaling pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1654"/>
+                <OntClass label="gamma signaling through PI3Kgamma - G beta - gamma signaling through PI3Kgamma"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2032"/>
+                <OntClass label="G alpha (s) signaling events"
+                          synonym="G alpha (s) signaling|G alpha (s) signal pathway|G alpha (s) signaling cascade|G alpha (s) signaling network|G alpha (s) Cascade|G alpha (s) pathway|G alpha (s) signal transduction pathway|G alpha (s) signaling pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1653"/>
+                <OntClass label="G alpha (i) signaling events"
+                          synonym="G alpha (i) signal transduction pathway|G alpha (i) pathway|G alpha (i) signal pathway|G alpha (i) Cascade|G alpha (i) signaling pathway|G alpha (i) signaling|G alpha (i) signaling cascade|G alpha (i) signaling network"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1799"/>
+                <OntClass label="G alpha (z) signaling events"
+                          synonym="G alpha (z) pathway|G alpha (z) signaling network|G alpha (z) signal pathway|G alpha (z) signaling pathway|G alpha (z) signal transduction pathway|G alpha (z) signaling|G alpha (z) Cascade|G alpha (z) signaling cascade"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1551"/>
+                <OntClass label="gamma signaling through PLC beta G beta - gamma signaling through PLC beta"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1419"/>
+                <OntClass label="GPCR signaling pathway"
+                          synonym="&quot;G-protein coupled receptor protein signaling pathway&quot;"
+                          uri="http://purl.obolibrary.org/obo/IEV_0000661">
+                    <OntClass label="GPCR downstream signaling" uri="http://scai.fraunhofer.de/PWDICT#ID1934"/>
+                    <OntClass label="fMLP signaling pathway" uri="http://purl.obolibrary.org/obo/IEV_0000163"/>
+                    <OntClass label="Rhodopsin mediated signaling pathway"
+                              uri="http://purl.obolibrary.org/obo/IEV_0000121">
+                        <OntClass label="Rhodopsin dark adaptation signaling"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0000759"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha s)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0000691">
+                        <OntClass label="Heterotrimeric GPCR signaling pathway (through Dopamine and G alpha s)"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0002637"/>
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through G alpha s, cholera toxin, adenylate cyclase and cAMP)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000707"/>
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through PACAP, G alpha s and adenylate cyclase, cAMP and PKA)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000276"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha o)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0002635">
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through melatonin, G alpha o and PLCbeta)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000773"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha q)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0002634">
+                        <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha q and PLC beta)"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0000748">
+                            <OntClass
+                                    label="Heterotrimeric GPCR signaling pathway (through glutamate, G alpha q and PLC beta)"
+                                    uri="http://purl.obolibrary.org/obo/IEV_0002653"/>
+                            <OntClass label="Heterotrimeric GPCR signaling pathway (through Angiotensin and G alpha q)"
+                                      uri="http://purl.obolibrary.org/obo/IEV_0002633"/>
+                        </OntClass>
+                    </OntClass>
+                    <OntClass label="beta-arrestins in GPCR Desensitization "
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1340"/>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha t)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0002636">
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through photon, rhodopsin, G alpha t and cGMP PDE)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000723"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha i)"
+                              synonym="&quot;Heterotrimeric GPCR signaling pathway (through G alpha i and pertussis toxin)&quot;"
+                              uri="http://purl.obolibrary.org/obo/IEV_0000692"/>
+                    <OntClass label="Endothelin receptor signaling" uri="http://purl.obolibrary.org/obo/IEV_0001693"/>
+                </OntClass>
+                <OntClass label="G protein mediated signaling pathway"
+                          synonym="G protein-mediated signaling cascade|G-protein-mediated signaling|G protein-mediated signaling pathway|G-protein mediated events|G protein mediated signaling cascade|G-protein-mediated signal pathway|G protein mediated signal transduction pathway|G protein-mediated Cascade|G protein mediated pathway|G protein mediated signal pathway|G protein mediated signaling|G protein-mediated pathway|heterotrimeric G protein mediated signaling pathway|G-protein-mediated Cascade|G protein mediated Cascade|G protein-mediated signal pathway|G-protein-mediated signal transduction pathway|G-protein-mediated pathway|G-protein-mediated signaling cascade|G-protein-mediated signaling pathway|G protein-mediated signaling|G protein-mediated signal transduction pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0128">
+                    <OntClass label="S1P3 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2318"/>
+                    <OntClass label="apelin signaling pathway"
+                              synonym="apelin Cascade|apelin pathway|apelin signal pathway|apelin signal transduction pathway|apelin signaling|apelin signaling cascade"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0465"/>
+                    <OntClass label="Visual Signal Transduction " synonym="optic pathway|visual pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1372">
+                        <OntClass label="anterior visual pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2883">
+                            <OntClass label="tectofugal pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3182"/>
+                        </OntClass>
+                        <OntClass label="magnocellular (M) pathway" synonym="M pathway|magnocellular pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID2775"/>
+                        <OntClass label="rod pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3154"/>
+                        <OntClass label="retinal ON cone pathway"
+                                  synonym="cone pathway of retinal|retinal  cone pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID2692"/>
+                        <OntClass label="Phototransduction" synonym="Phototransduction  pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID1057"/>
+                    </OntClass>
+                    <OntClass label="PLC beta mediated events" uri="http://scai.fraunhofer.de/PWDICT#ID1860"/>
+                    <OntClass label="Gi Pathway" synonym="GI reflex pathway|Gi-dependent Pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2795"/>
+                    <OntClass label="S1P2 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2317"/>
+                    <OntClass label="adenylyl cyclase pathway"
+                              synonym="adenylyl cyclase signaling pathway|adenylyl cyclase-camp pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2872">
+                        <OntClass label="Caspase cascade (not through mitochondria)"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0000938"/>
+                    </OntClass>
+                    <OntClass label="G alpha s pathway" synonym="G-Protein alpha-s signaling"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2999"/>
+                    <OntClass label="S1P5 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2320"/>
+                    <OntClass label="S1P4 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2319"/>
+                    <OntClass label="Beta 2 Adrenergic Receptor Pathway "
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1201"/>
+                    <OntClass label="S1P1 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2316"/>
+                    <OntClass label="G(12/13) pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2998">
+                        <OntClass label="G alpha 12-RhoGEF pathway"
+                                  synonym="G 12-RhoGEF pathway|G alpha 12/13-RhoGEF pathway |G12/13-RhoGEF pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID2803"/>
+                    </OntClass>
+                </OntClass>
+                <OntClass label="Attenuation of GPCR Signaling " synonym="GPCR Signaling Attenuation"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1134"/>
+            </OntClass>
+            <OntClass label="pain pathway" relation="unfolds-in" synonym="nociceptive pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID2590">
+                <OntClass label="arachidonic acid pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2889">
+                    <OntClass label="cox 2 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2952"/>
+                </OntClass>
+            </OntClass>
+            <OntClass label="dopamine signaling pathway" relation="unfolds-in"
+                      synonym="dopamine signal transduction pathway|dopaminergic pathway|dopamine signaling|dopamine Cascade|dopamine signaling cascade|dopamine pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID0403">
+                <OntClass label="altered dopamine signaling pathway"
+                          synonym="altered dopamine signaling|altered dopaminergic pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0404"/>
+                <OntClass label="mesolimbic dopamine pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3050"/>
+                <OntClass label="mesocorticolimbic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2675"/>
+                <OntClass label="dopamine signaling pathway via D1 family of receptors"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0851">
+                    <OntClass label="G protein mediated signaling pathway via Galphas family"
+                              synonym="G protein mediated signaling pathway via G alpha s family|G protein-mediated signaling pathway via G alpha s family|G protein-mediated signaling pathway via Galphas family|G-protein-mediated signaling pathway via G alpha s family|G-protein-mediated signaling pathway via Galphas family"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0231"/>
+                </OntClass>
+                <OntClass label="mesocortical dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2330"/>
+                <OntClass label="mesolimbic dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2329"/>
+                <OntClass label="mesoaccumbens dopamine pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2466"/>
+                <OntClass label="mesostriatal pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2361">
+                    <OntClass label="mesostriatal dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2360"/>
+                </OntClass>
+                <OntClass label="dopamine signaling pathway via D2 family of receptors"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0852"/>
+            </OntClass>
+            <OntClass label="Glucose metabolism" relation="unfolds-in"
+                      synonym="Metabolism of glucose|metabolic pathway of glucose|glucose metabolism pathway|glucose metabolic pathway|pathway of glucose metabolism"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID1892">
+                <OntClass label="Glycogen synthesis"
+                          synonym="glycogen synthesis pathway|Glycogen biosynthesis pathway|glycogen biosynthesis pathway|glycogen biosynthetic pathway|Biosynthesis of Glycogen|biosynthetic pathway of glycogen|Glycogen synthetic pathway|Glycogen biosynthetic pathway|synthesis of Glycogen|glycogen synthetic pathway|biosynthetic pathway of Glycogen|synthetic pathway of Glycogen|synthesis of glycogen|Biosynthesis of glycogen|Glycogen synthesis pathway|glycogen biosynthesis|synthetic pathway of glycogen|glycogen synthesis|glycogenesis"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2025">
+                    <OntClass label="Glycosaminoglycan biosynthesis - chondroitin sulfate"
+                              synonym="Biosynthesis of GAG|GAG biosynthesis pathway|synthesis of Glycosaminoglycan|Glycosaminoglycan synthesis|Glycosaminoglycan biosynthesis|Glycosaminoglycan biosynthetic pathway - chondroitin sulfate|GAG synthesis|biosynthetic pathway of Glycosaminoglycan|Biosynthesis of Glycosaminoglycan|Glycosaminoglycan biosynthesis pathway|Glycosaminoglycan synthetic pathway|synthetic pathway of Glycosaminoglycan|biosynthetic pathway of GAG|GAG synthetic pathway|synthesis of GAG|GAG synthesis pathway|Glycosaminoglycan biosynthetic pathway|synthetic pathway of GAG|GAG biosynthetic pathway|GAG biosynthesis|Glycosaminoglycan synthesis pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0926">
+                        <OntClass label="Glycosaminoglycan biosynthesis - heparan sulfate"
+                                  synonym="Glycosaminoglycan biosynthetic pathway - heparan sulfate"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID0927"/>
+                    </OntClass>
+                    <OntClass label="altered glycogen biosynthetic pathway" synonym="altered glycogen biosynthesis"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0649"/>
+                </OntClass>
+                <OntClass label="Rgt1 in Yeast Glucose Induction Pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1324"/>
+            </OntClass>
+            <OntClass label="neural pathway" relation="unfolds-in" synonym="mesocortical pathway|neurogenic pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID2656">
+                <OntClass label="neuronal pathway" synonym="CTC pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3077">
+                    <OntClass label="gabaergic pathway" synonym="GABA(A) receptor signalling"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3001"/>
+                    <OntClass label="neurotrophic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3078"/>
+                    <OntClass label="neuronal death pathway" synonym="neuronal apoptosis|neuronal apoptotic pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3076"/>
+                </OntClass>
+                <OntClass label="sinonasal parasympathetic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2746"/>
+                <OntClass label="interlimb pathway"
+                          synonym="interlimb neural pathway|interlimb reflex pathway|interlimb spinal pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2715"/>
+                <OntClass label="physiological response pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2576"/>
+                <OntClass label="neurocognitive pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2713">
+                    <OntClass label="glutamate-NO-cGMP pathway"
+                              synonym="glutamate receptor/NO/cGMP pathway|glutamate-nitric oxide-cyclic GMP pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3004">
+                        <OntClass
+                                label="glutamate-nitric oxide-cyclic guanosine 3'5'-monophosphate (cyclic GMP) pathway"
+                                uri="http://scai.fraunhofer.de/PWDICT#ID2560"/>
+                    </OntClass>
+                </OntClass>
+                <OntClass label="tinnitus dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2441"/>
+                <OntClass label="Erythropoietin mediated neuroprotection through NF-kB "
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1216"/>
+                <OntClass label="nigrostriatal pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2385">
+                    <OntClass label="nigrostriatal DA pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2408"/>
+                    <OntClass label="nigrostriatal dopamine pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3080"/>
+                    <OntClass label="nigrostriatal dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2490"/>
+                </OntClass>
+                <OntClass label="monosynaptic reflex pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3062"/>
+                <OntClass label="schaffer collateral CA1 pathway" synonym="schaffer collateral commissural pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID3158"/>
+                <OntClass label="olfactory nerve pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3090"/>
+                <OntClass label="micturition reflex pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3055"/>
+            </OntClass>
+            <OntClass label="serotonin metabolic pathway" relation="unfolds-in"
+                      synonym="serotonin metabolism pathway|serotonin metabolism|Metabolism of serotonin|metabolic pathway of serotonin"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID0419"/>
+        </OntClass>
+        <OntClass label="Medial prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCm">
+            <OntClass label="medial prefrontal cortex (human)"
+                      synonym="medial prefrontal cortex human|medial prefrontal cortex|medial prefrontal cortex (human)|medial prefrontal cortex human|medial prefrontal cortex|medial prefrontal cortex (human)"
+                      uri="http://nerged.cellandgrossanatomy.owl#NN_1352"/>
+        </OntClass>
+        <OntClass label="Pole of prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCpol"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PFCpol" label="Pole of prefrontal cortex or subregion thereof"/>
+    <TVBTerm id="http://thevirtualbrain.org#G" label="Gustatory cortex or subregion thereof">
+        <OntClass label="gustatory area" synonym="gustatory area|gustatory cortex|gustatory area|gustatory cortex"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_1358"/>
+        <OntClass label="Frontal operculum"
+                  synonym="Operculum frontale|Pars opercularis of frontoparietal operculum Ono|Pars opercularis of frontoparietal operculum|Frontal operculum|frontal operculum|fro|Pars opercularis of frontoparietal operculum (Ono)|Operculum frontale|Pars opercularis of frontoparietal operculum Ono|Pars opercularis of frontoparietal operculum|Frontal operculum|frontal operculum|fro|Pars opercularis of frontoparietal operculum (Ono)"
+                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_751"/>
+        <OntClass label="Anterior insula or subregion thereof" uri="http://thevirtualbrain.org#IA">
+            <OntClass label="short insular gyri (human)"
+                      synonym="lobus insulae anterior|short insular gyri human|short insular gyri|short gyri of insula|short insular gyri (human)|Gyri breves insulae|SIG|lobus insulae anterior|short insular gyri human|short insular gyri|short gyri of insula|short insular gyri (human)|Gyri breves insulae|SIG"
+                      uri="http://nerged.cellandgrossanatomy.owl#NN_115">
+                <OntClass label="intermediate short gyrus (human)"
+                          synonym="Gyrus brevis intermedius|intermediate short gyrus human|intermediate short gyrus|intermediate short gyrus (human)|ISG|Gyrus brevis intermedius|intermediate short gyrus human|intermediate short gyrus|intermediate short gyrus (human)|ISG"
+                          uri="http://nerged.cellandgrossanatomy.owl#NN_118"/>
+                <OntClass label="second short gyrus (human)"
+                          synonym="SG2|second short gyrus|second short gyrus (human)|Gyrus brevis II|second short gyrus human|SG2|second short gyrus|second short gyrus (human)|Gyrus brevis II|second short gyrus human"
+                          uri="http://nerged.cellandgrossanatomy.owl#NN_117"/>
+                <OntClass label="first short gyrus (human)"
+                          synonym="SG1|Gyrus brevis I|first short gyrus (human)|SG1|Gyrus brevis I|first short gyrus (human)"
+                          uri="http://nerged.cellandgrossanatomy.owl#NN_116"/>
+            </OntClass>
+        </OntClass>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PMCdl" label="Dorsolateral premotor cortex or subregion thereof">
+        <OntClass label="Dorsomedial prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCdm"/>
+        <OntClass label="Dorsolateral prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCdl"/>
+        <OntClass label="Prefrontal cortex" uri="http://nerged.cellandgrossanatomy.owl#nlx_anat_090801">
+            <OntClass label="G-Protein Signaling" relation="unfolds-in"
+                      synonym="G-Protein Cascade|G-Protein signaling cascade|G-Protein signal transduction pathway|G-Protein pathway|G-Protein signal pathway|G-Protein signaling network|G-Protein signaling pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID1233">
+                <OntClass label="G alpha (q) signaling events"
+                          synonym="G alpha (q) signal transduction pathway|G alpha (q) signal pathway|G alpha (q) Cascade|G alpha (q) signaling|G alpha (q) signaling network|G alpha (q) signaling pathway|G alpha (q) pathway|G alpha (q) signaling cascade"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1722"/>
+                <OntClass label="G alpha (12/13) signaling events"
+                          synonym="G alpha (12/13) signaling pathway|G alpha (12/13) Cascade|G alpha (12/13) signaling network|G alpha (12/13) signaling|G alpha (12/13) signaling cascade|G alpha (12/13) signal pathway|G alpha (12/13) signal transduction pathway|G alpha (12/13) pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1639"/>
+                <OntClass label="gamma signaling - G-protein beta:gamma signaling"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1457"/>
+                <OntClass label="Histamine receptor signaling"
+                          synonym="Histamine receptor Cascade|Histamine receptor pathway|Histamine receptor signal pathway|Histamine receptor signal transduction pathway|Histamine receptor signaling cascade|Histamine receptor signaling pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1654"/>
+                <OntClass label="gamma signaling through PI3Kgamma - G beta - gamma signaling through PI3Kgamma"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2032"/>
+                <OntClass label="G alpha (s) signaling events"
+                          synonym="G alpha (s) signaling|G alpha (s) signal pathway|G alpha (s) signaling cascade|G alpha (s) signaling network|G alpha (s) Cascade|G alpha (s) pathway|G alpha (s) signal transduction pathway|G alpha (s) signaling pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1653"/>
+                <OntClass label="G alpha (i) signaling events"
+                          synonym="G alpha (i) signal transduction pathway|G alpha (i) pathway|G alpha (i) signal pathway|G alpha (i) Cascade|G alpha (i) signaling pathway|G alpha (i) signaling|G alpha (i) signaling cascade|G alpha (i) signaling network"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1799"/>
+                <OntClass label="G alpha (z) signaling events"
+                          synonym="G alpha (z) pathway|G alpha (z) signaling network|G alpha (z) signal pathway|G alpha (z) signaling pathway|G alpha (z) signal transduction pathway|G alpha (z) signaling|G alpha (z) Cascade|G alpha (z) signaling cascade"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1551"/>
+                <OntClass label="gamma signaling through PLC beta G beta - gamma signaling through PLC beta"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1419"/>
+                <OntClass label="GPCR signaling pathway"
+                          synonym="&quot;G-protein coupled receptor protein signaling pathway&quot;"
+                          uri="http://purl.obolibrary.org/obo/IEV_0000661">
+                    <OntClass label="GPCR downstream signaling" uri="http://scai.fraunhofer.de/PWDICT#ID1934"/>
+                    <OntClass label="fMLP signaling pathway" uri="http://purl.obolibrary.org/obo/IEV_0000163"/>
+                    <OntClass label="Rhodopsin mediated signaling pathway"
+                              uri="http://purl.obolibrary.org/obo/IEV_0000121">
+                        <OntClass label="Rhodopsin dark adaptation signaling"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0000759"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha s)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0000691">
+                        <OntClass label="Heterotrimeric GPCR signaling pathway (through Dopamine and G alpha s)"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0002637"/>
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through G alpha s, cholera toxin, adenylate cyclase and cAMP)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000707"/>
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through PACAP, G alpha s and adenylate cyclase, cAMP and PKA)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000276"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha o)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0002635">
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through melatonin, G alpha o and PLCbeta)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000773"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha q)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0002634">
+                        <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha q and PLC beta)"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0000748">
+                            <OntClass
+                                    label="Heterotrimeric GPCR signaling pathway (through glutamate, G alpha q and PLC beta)"
+                                    uri="http://purl.obolibrary.org/obo/IEV_0002653"/>
+                            <OntClass label="Heterotrimeric GPCR signaling pathway (through Angiotensin and G alpha q)"
+                                      uri="http://purl.obolibrary.org/obo/IEV_0002633"/>
+                        </OntClass>
+                    </OntClass>
+                    <OntClass label="beta-arrestins in GPCR Desensitization "
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1340"/>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha t)"
+                              uri="http://purl.obolibrary.org/obo/IEV_0002636">
+                        <OntClass
+                                label="Heterotrimeric GPCR signaling pathway (through photon, rhodopsin, G alpha t and cGMP PDE)"
+                                uri="http://purl.obolibrary.org/obo/IEV_0000723"/>
+                    </OntClass>
+                    <OntClass label="Heterotrimeric GPCR signaling pathway (through G alpha i)"
+                              synonym="&quot;Heterotrimeric GPCR signaling pathway (through G alpha i and pertussis toxin)&quot;"
+                              uri="http://purl.obolibrary.org/obo/IEV_0000692"/>
+                    <OntClass label="Endothelin receptor signaling" uri="http://purl.obolibrary.org/obo/IEV_0001693"/>
+                </OntClass>
+                <OntClass label="G protein mediated signaling pathway"
+                          synonym="G protein-mediated signaling cascade|G-protein-mediated signaling|G protein-mediated signaling pathway|G-protein mediated events|G protein mediated signaling cascade|G-protein-mediated signal pathway|G protein mediated signal transduction pathway|G protein-mediated Cascade|G protein mediated pathway|G protein mediated signal pathway|G protein mediated signaling|G protein-mediated pathway|heterotrimeric G protein mediated signaling pathway|G-protein-mediated Cascade|G protein mediated Cascade|G protein-mediated signal pathway|G-protein-mediated signal transduction pathway|G-protein-mediated pathway|G-protein-mediated signaling cascade|G-protein-mediated signaling pathway|G protein-mediated signaling|G protein-mediated signal transduction pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0128">
+                    <OntClass label="S1P3 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2318"/>
+                    <OntClass label="apelin signaling pathway"
+                              synonym="apelin Cascade|apelin pathway|apelin signal pathway|apelin signal transduction pathway|apelin signaling|apelin signaling cascade"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0465"/>
+                    <OntClass label="Visual Signal Transduction " synonym="optic pathway|visual pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1372">
+                        <OntClass label="anterior visual pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2883">
+                            <OntClass label="tectofugal pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3182"/>
+                        </OntClass>
+                        <OntClass label="magnocellular (M) pathway" synonym="M pathway|magnocellular pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID2775"/>
+                        <OntClass label="rod pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3154"/>
+                        <OntClass label="retinal ON cone pathway"
+                                  synonym="cone pathway of retinal|retinal  cone pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID2692"/>
+                        <OntClass label="Phototransduction" synonym="Phototransduction  pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID1057"/>
+                    </OntClass>
+                    <OntClass label="PLC beta mediated events" uri="http://scai.fraunhofer.de/PWDICT#ID1860"/>
+                    <OntClass label="Gi Pathway" synonym="GI reflex pathway|Gi-dependent Pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2795"/>
+                    <OntClass label="S1P2 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2317"/>
+                    <OntClass label="adenylyl cyclase pathway"
+                              synonym="adenylyl cyclase signaling pathway|adenylyl cyclase-camp pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2872">
+                        <OntClass label="Caspase cascade (not through mitochondria)"
+                                  uri="http://purl.obolibrary.org/obo/IEV_0000938"/>
+                    </OntClass>
+                    <OntClass label="G alpha s pathway" synonym="G-Protein alpha-s signaling"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2999"/>
+                    <OntClass label="S1P5 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2320"/>
+                    <OntClass label="S1P4 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2319"/>
+                    <OntClass label="Beta 2 Adrenergic Receptor Pathway "
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1201"/>
+                    <OntClass label="S1P1 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2316"/>
+                    <OntClass label="G(12/13) pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2998">
+                        <OntClass label="G alpha 12-RhoGEF pathway"
+                                  synonym="G 12-RhoGEF pathway|G alpha 12/13-RhoGEF pathway |G12/13-RhoGEF pathway"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID2803"/>
+                    </OntClass>
+                </OntClass>
+                <OntClass label="Attenuation of GPCR Signaling " synonym="GPCR Signaling Attenuation"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1134"/>
+            </OntClass>
+            <OntClass label="pain pathway" relation="unfolds-in" synonym="nociceptive pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID2590">
+                <OntClass label="arachidonic acid pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2889">
+                    <OntClass label="cox 2 pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2952"/>
+                </OntClass>
+            </OntClass>
+            <OntClass label="dopamine signaling pathway" relation="unfolds-in"
+                      synonym="dopamine signal transduction pathway|dopaminergic pathway|dopamine signaling|dopamine Cascade|dopamine signaling cascade|dopamine pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID0403">
+                <OntClass label="altered dopamine signaling pathway"
+                          synonym="altered dopamine signaling|altered dopaminergic pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0404"/>
+                <OntClass label="mesolimbic dopamine pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3050"/>
+                <OntClass label="mesocorticolimbic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2675"/>
+                <OntClass label="dopamine signaling pathway via D1 family of receptors"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0851">
+                    <OntClass label="G protein mediated signaling pathway via Galphas family"
+                              synonym="G protein mediated signaling pathway via G alpha s family|G protein-mediated signaling pathway via G alpha s family|G protein-mediated signaling pathway via Galphas family|G-protein-mediated signaling pathway via G alpha s family|G-protein-mediated signaling pathway via Galphas family"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0231"/>
+                </OntClass>
+                <OntClass label="mesocortical dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2330"/>
+                <OntClass label="mesolimbic dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2329"/>
+                <OntClass label="mesoaccumbens dopamine pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2466"/>
+                <OntClass label="mesostriatal pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2361">
+                    <OntClass label="mesostriatal dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2360"/>
+                </OntClass>
+                <OntClass label="dopamine signaling pathway via D2 family of receptors"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID0852"/>
+            </OntClass>
+            <OntClass label="Glucose metabolism" relation="unfolds-in"
+                      synonym="Metabolism of glucose|metabolic pathway of glucose|glucose metabolism pathway|glucose metabolic pathway|pathway of glucose metabolism"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID1892">
+                <OntClass label="Glycogen synthesis"
+                          synonym="glycogen synthesis pathway|Glycogen biosynthesis pathway|glycogen biosynthesis pathway|glycogen biosynthetic pathway|Biosynthesis of Glycogen|biosynthetic pathway of glycogen|Glycogen synthetic pathway|Glycogen biosynthetic pathway|synthesis of Glycogen|glycogen synthetic pathway|biosynthetic pathway of Glycogen|synthetic pathway of Glycogen|synthesis of glycogen|Biosynthesis of glycogen|Glycogen synthesis pathway|glycogen biosynthesis|synthetic pathway of glycogen|glycogen synthesis|glycogenesis"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2025">
+                    <OntClass label="Glycosaminoglycan biosynthesis - chondroitin sulfate"
+                              synonym="Biosynthesis of GAG|GAG biosynthesis pathway|synthesis of Glycosaminoglycan|Glycosaminoglycan synthesis|Glycosaminoglycan biosynthesis|Glycosaminoglycan biosynthetic pathway - chondroitin sulfate|GAG synthesis|biosynthetic pathway of Glycosaminoglycan|Biosynthesis of Glycosaminoglycan|Glycosaminoglycan biosynthesis pathway|Glycosaminoglycan synthetic pathway|synthetic pathway of Glycosaminoglycan|biosynthetic pathway of GAG|GAG synthetic pathway|synthesis of GAG|GAG synthesis pathway|Glycosaminoglycan biosynthetic pathway|synthetic pathway of GAG|GAG biosynthetic pathway|GAG biosynthesis|Glycosaminoglycan synthesis pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0926">
+                        <OntClass label="Glycosaminoglycan biosynthesis - heparan sulfate"
+                                  synonym="Glycosaminoglycan biosynthetic pathway - heparan sulfate"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID0927"/>
+                    </OntClass>
+                    <OntClass label="altered glycogen biosynthetic pathway" synonym="altered glycogen biosynthesis"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0649"/>
+                </OntClass>
+                <OntClass label="Rgt1 in Yeast Glucose Induction Pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1324"/>
+            </OntClass>
+            <OntClass label="neural pathway" relation="unfolds-in" synonym="mesocortical pathway|neurogenic pathway"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID2656">
+                <OntClass label="neuronal pathway" synonym="CTC pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3077">
+                    <OntClass label="gabaergic pathway" synonym="GABA(A) receptor signalling"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3001"/>
+                    <OntClass label="neurotrophic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3078"/>
+                    <OntClass label="neuronal death pathway" synonym="neuronal apoptosis|neuronal apoptotic pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3076"/>
+                </OntClass>
+                <OntClass label="sinonasal parasympathetic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2746"/>
+                <OntClass label="interlimb pathway"
+                          synonym="interlimb neural pathway|interlimb reflex pathway|interlimb spinal pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2715"/>
+                <OntClass label="physiological response pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2576"/>
+                <OntClass label="neurocognitive pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2713">
+                    <OntClass label="glutamate-NO-cGMP pathway"
+                              synonym="glutamate receptor/NO/cGMP pathway|glutamate-nitric oxide-cyclic GMP pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID3004">
+                        <OntClass
+                                label="glutamate-nitric oxide-cyclic guanosine 3'5'-monophosphate (cyclic GMP) pathway"
+                                uri="http://scai.fraunhofer.de/PWDICT#ID2560"/>
+                    </OntClass>
+                </OntClass>
+                <OntClass label="tinnitus dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2441"/>
+                <OntClass label="Erythropoietin mediated neuroprotection through NF-kB "
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1216"/>
+                <OntClass label="nigrostriatal pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2385">
+                    <OntClass label="nigrostriatal DA pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2408"/>
+                    <OntClass label="nigrostriatal dopamine pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3080"/>
+                    <OntClass label="nigrostriatal dopaminergic pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2490"/>
+                </OntClass>
+                <OntClass label="monosynaptic reflex pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3062"/>
+                <OntClass label="schaffer collateral CA1 pathway" synonym="schaffer collateral commissural pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID3158"/>
+                <OntClass label="olfactory nerve pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3090"/>
+                <OntClass label="micturition reflex pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3055"/>
+            </OntClass>
+            <OntClass label="serotonin metabolic pathway" relation="unfolds-in"
+                      synonym="serotonin metabolism pathway|serotonin metabolism|Metabolism of serotonin|metabolic pathway of serotonin"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID0419"/>
+        </OntClass>
+        <OntClass label="Medial prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCm"/>
+        <OntClass label="Pole of prefrontal cortex or subregion thereof" uri="http://thevirtualbrain.org#PFCpol"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#M1" label="Primary motor area or subregion thereof">
+        <OntClass label="primary motor cortex"
+                  synonym="primary motor area M I|motor area Crosby|motor cortex|motor cortex (Carpenter)|primary motor area|precentral motor area|motor strip|somatic motor I|primary motor area (M I)|motor cortex Carpenter|motor area|M I|primary motor cortex|motor area (Crosby)|primary motor area M I|motor area Crosby|motor cortex|motor cortex (Carpenter)|primary motor area|precentral motor area|motor strip|somatic motor I|primary motor area (M I)|motor cortex Carpenter|motor area|M I|primary motor cortex|motor area (Crosby)"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_1910"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#Amyg" label="Amygdala or subregion thereof">
+        <OntClass label="Regional part of amygdala" uri="http://nerged.cellandgrossanatomy.owl#birnlex_2678">
+            <OntClass label="Regional part of basolateral nuclear complex"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2685">
+                <OntClass label="Predominantly gray part of basolateral nuclear complex"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2684">
+                    <OntClass label="Regional part of lateral amygdaloid nucleus"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2688">
+                        <OntClass label="Lateral amygdaloid nucleus, ventromedial part"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2691"/>
+                        <OntClass label="Lateral amygdaloid nucleus, ventrolateral part"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2690"/>
+                        <OntClass label="Lateral amygdaloid nucleus, dorsolateral part"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2689"/>
+                    </OntClass>
+                    <OntClass label="Lateral amygdaloid nucleus"
+                              synonym="lateral principal nucleus of amygdala|La|medial principal nucleus|lateral nucleus of amygdala|Nucleus amygdalae lateralis|Lateral amygdaloid nucleus|lateral amygdaloid nucleus|lateral amygdalar nucleus|lateral principal nucleus of amygdala|La|medial principal nucleus|lateral nucleus of amygdala|Nucleus amygdalae lateralis|Lateral amygdaloid nucleus|lateral amygdaloid nucleus|lateral amygdalar nucleus"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2687"/>
+                    <OntClass label="Accessory basal amygdaloid nucleus"
+                              synonym="Nucleus amygdalae basalis accessorius|accessory basal amygdaloid nucleus|basomedial amygdaloid nucleus|Nucleus amygdaloideus basomedialis|basomedial nucleus De Olmos|basal amygdaloid nucleus, medial part|medial principal nucleus|basomedial nucleus|Accessory basal amygdaloid nucleus|basomedial nucleus (De Olmos)|accessory basal nucleus of amygdala|accessory basal nucleus of the amygdala|Nucleus amygdalae basalis accessorius|accessory basal amygdaloid nucleus|basomedial amygdaloid nucleus|Nucleus amygdaloideus basomedialis|basomedial nucleus De Olmos|basal amygdaloid nucleus, medial part|medial principal nucleus|basomedial nucleus|Accessory basal amygdaloid nucleus|basomedial nucleus (De Olmos)|accessory basal nucleus of amygdala|accessory basal nucleus of the amygdala"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2686"/>
+                </OntClass>
+                <OntClass label="Regional part of basal amygdaloid nucleus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2693">
+                    <OntClass label="Predominantly gray part of basal amygdaloid nucleus"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2694">
+                        <OntClass label="Medial part of basal amygdaloid nucleus"
+                                  synonym="medial part of basal amygdaloid nucleus|medial part of the basal amygdalar nucleus|Nucleus amygdalae basalis, pars medialis|medial division of basal nucleus|Medial part of basal amygdaloid nucleus|BAM|medial part of basal amygdalar nucleus|medial basal nucleus of amygdala|medial part of basal amygdaloid nucleus|medial part of the basal amygdalar nucleus|Nucleus amygdalae basalis, pars medialis|medial division of basal nucleus|Medial part of basal amygdaloid nucleus|BAM|medial part of basal amygdalar nucleus|medial basal nucleus of amygdala"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2696"/>
+                        <OntClass label="Lateral part of basal amygdaloid nucleus"
+                                  synonym="lateral part of the basal amygdalar nucleus|lateral division of the basal nucleus|lateral division of basal nucleus|BAL|lateral basal nucleus of amygdala|Lateral part of basal amygdaloid nucleus|lateral basal nucleus of the amygdala|Nucleus amygdalae basalis, pars lateralis|lateral part of basal amygdaloid nucleus|lateral part of the basal amygdalar nucleus|lateral division of the basal nucleus|lateral division of basal nucleus|BAL|lateral basal nucleus of amygdala|Lateral part of basal amygdaloid nucleus|lateral basal nucleus of the amygdala|Nucleus amygdalae basalis, pars lateralis|lateral part of basal amygdaloid nucleus"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2695"/>
+                    </OntClass>
+                </OntClass>
+                <OntClass label="Basal amygdaloid nucleus"
+                          synonym="basolateral amygdaloid nucleus|Nucleus amygdalae basalis|basolateral nucleus|basolateral amygaloid nucleus|basal amygdaloid nucleus|Basal amygdaloid nucleus|basal nucleus of the amygdala|basolateral nucleus (De Olmos)|basal nucleus of amygdala|basolateral amygdalar nucleus|basolateral nucleus De Olmos|Nucleus amygdaloideus basolateralis|basolateral amygdaloid nucleus|Nucleus amygdalae basalis|basolateral nucleus|basolateral amygaloid nucleus|basal amygdaloid nucleus|Basal amygdaloid nucleus|basal nucleus of the amygdala|basolateral nucleus (De Olmos)|basal nucleus of amygdala|basolateral amygdalar nucleus|basolateral nucleus De Olmos|Nucleus amygdaloideus basolateralis"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2692"/>
+                <OntClass label="Amygdala basolateral nuclear nonpyramidal PV basket cell" relation="located-in"
+                          uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_basolateral_nuclear_complex_nonpyramidal_PV_basket_cell"/>
+                <OntClass label="Amygdala basolateral nuclear complex pyramidal neuron" relation="located-in"
+                          uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_basolateral_nuclear_complex_pyramidal_neuron"/>
+                <OntClass label="Amygdala basolateral nuclear complex nonpyramidal SOM neuron" relation="located-in"
+                          uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_basolateral_nuclear_complex_nonpyramidal_SOM_neuron"/>
+                <OntClass label="Amygdala basolateral nuclear complex nonpyramidal PV chandelier cell"
+                          relation="located-in"
+                          uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_basolateral_nuclear_complex_nonpyramidal_PV_chandelier_cell"/>
+            </OntClass>
+            <OntClass label="Basolateral amygdaloid nuclear complex"
+                      synonym="vicarious cortex|Basolateral amygdaloid nuclear complex|Basolateral nuclear complex|basolateral nuclear group|Pars basolateralis (Corpus amygdaloideum)|pars basolateralis (Corpus amygdaloideum)|amygdaloid basolateral complex|Pars basolateralis|Pars basolateralis Corpus amygdaloideum|BL|amygdalar basolateral nucleus|vicarious cortex|Basolateral amygdaloid nuclear complex|Basolateral nuclear complex|basolateral nuclear group|Pars basolateralis (Corpus amygdaloideum)|pars basolateralis (Corpus amygdaloideum)|amygdaloid basolateral complex|Pars basolateralis|Pars basolateralis Corpus amygdaloideum|BL|amygdalar basolateral nucleus"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2679"/>
+            <OntClass label="Predominantly gray regional part of amygdala"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2681">
+                <OntClass label="Intercalated amygdaloid nuclei"
+                          synonym="Massa intercalata of amygdala|intercalated nuclei of amygdala|intercalated amygdalar nuclei|intercalated masses of nucleus amygdaloideus|Massa intercalata|intercalated nucleus of the amygdala|intercalated masses|Intercalated amygdaloid nuclei|Nucleus amygdalae intercalatus|Massa intercalata of amygdala|intercalated nuclei of amygdala|intercalated amygdalar nuclei|intercalated masses of nucleus amygdaloideus|Massa intercalata|intercalated nucleus of the amygdala|intercalated masses|Intercalated amygdaloid nuclei|Nucleus amygdalae intercalatus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2683">
+                    <OntClass label="Amygdala intercalated nuclei small spiny neuron" relation="located-in"
+                              uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_intercalated_nuclei_small_spiny_neuron"/>
+                </OntClass>
+                <OntClass label="Central amygdaloid nucleus"
+                          synonym="Nucleus amygdalae centralis|central nucleus of amygda|central amygdaloid nucleus|Nucleus amygdaloideus centralis|central amygdalar nucleus|Central amygdaloid nucleus|Nucleus amygdalae centralis|central nucleus of amygda|central amygdaloid nucleus|Nucleus amygdaloideus centralis|central amygdalar nucleus|Central amygdaloid nucleus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2682">
+                    <OntClass label="Amygdala lateral central nucleus medium spiny neuron" relation="located-in"
+                              uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_lateral_central_nucleus_medium_spiny_neuron"/>
+                </OntClass>
+            </OntClass>
+            <OntClass label="Corticomedial nuclear complex"
+                      synonym="Corticomedial nuclear complex|CMA|pars corticomedialis (Corpus amygdaloideum)|Pars corticomedialis (Corpus amygdaloideum)|Pars corticomedialis|corticomedial nuclear group|Pars corticomedialis Corpus amygdaloideum|amygdalar corticomedial nucleus|Corticomedial nuclear complex|CMA|pars corticomedialis (Corpus amygdaloideum)|Pars corticomedialis (Corpus amygdaloideum)|Pars corticomedialis|corticomedial nuclear group|Pars corticomedialis Corpus amygdaloideum|amygdalar corticomedial nucleus"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2680"/>
+            <OntClass label="Regional part of corticomedial nuclear complex"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2697">
+                <OntClass label="Predominantly gray part of corticomedial nuclear complex"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2699">
+                    <OntClass label="Nucleus of lateral olfactory tract"
+                              synonym="Nucleus of lateral olfactory tract|Nucleus of the lateral olfactory tract (Ganser)|Nucleus striae olfactoriae lateralis|nucleus of the lateral olfactory tract|Nucleus of lateral olfactory tract|Nucleus of the lateral olfactory tract (Ganser)|Nucleus striae olfactoriae lateralis|nucleus of the lateral olfactory tract"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2702"/>
+                    <OntClass label="Medial amygdaloid nucleus"
+                              synonym="medial amygalar nucleus|medial nucleus of amygdala|medial amygalar nucleus|medial nucleus of amygdala"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2701"/>
+                    <OntClass label="Cortical amygdaloid nucleus"
+                              synonym="cortical amygdaloid nucleus|Corpus amygdaloideum pars corticomedialis|cortical amygdalar nucleus|Nucleus amygdalae corticalis|Cortical amygdaloid nucleus|posterior cortical amygdaloid nucleus|Nucleus amygdaloideus corticalis posterior|Corpus amygdaloideum pars olfactoria|cortical amygdaloid nucleus|Corpus amygdaloideum pars corticomedialis|cortical amygdalar nucleus|Nucleus amygdalae corticalis|Cortical amygdaloid nucleus|posterior cortical amygdaloid nucleus|Nucleus amygdaloideus corticalis posterior|Corpus amygdaloideum pars olfactoria"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2700"/>
+                    <OntClass label="Anterior amygdaloid area"
+                              synonym="Anterior amygdaloid area|anterior amygdaloid area|Area amygdaloidea anterior|anterior amygdalar area|anterior amygaloid area|Area amydaliformis anterior|Anterior amygdaloid area|anterior amygdaloid area|Area amygdaloidea anterior|anterior amygdalar area|anterior amygaloid area|Area amydaliformis anterior"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2698"/>
+                </OntClass>
+            </OntClass>
+        </OntClass>
+        <OntClass
+                definition="Subcortical brain region lying anterior to the hippocampal formation in the temporal lobe and anterior to the temporal horn of the lateral ventricle in some species.  It is usually subdivided into several groups.  Functionally, it is not considered a unitary structure (MM).^^http://www.w3.org/2001/XMLSchema#string"
+                label="Amygdala"
+                synonym="amygdaloid nuclear complex|Corpus amygdaloideum|amygdaloid nucleus|Amg|amygdaloid body|archistriatum|amygdala|amygdaloid nuclear groups|nucleus amygdalae|Amygdala|Amygdaloid complex|amygdaloid nuclear complex|Corpus amygdaloideum|amygdaloid nucleus|Amg|amygdaloid body|archistriatum|amygdala|amygdaloid nuclear groups|nucleus amygdalae|Amygdala|Amygdaloid complex"
+                uri="http://nerged.cellandgrossanatomy.owl#birnlex_1241">
+            <OntClass label="Regional part of amygdala" relation="located-in"
+                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2678">
+                <OntClass label="Regional part of basolateral nuclear complex"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2685">
+                    <OntClass label="Predominantly gray part of basolateral nuclear complex"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2684">
+                        <OntClass label="Regional part of lateral amygdaloid nucleus"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2688">
+                            <OntClass label="Lateral amygdaloid nucleus, ventromedial part"
+                                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2691"/>
+                            <OntClass label="Lateral amygdaloid nucleus, ventrolateral part"
+                                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2690"/>
+                            <OntClass label="Lateral amygdaloid nucleus, dorsolateral part"
+                                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2689"/>
+                        </OntClass>
+                        <OntClass label="Lateral amygdaloid nucleus"
+                                  synonym="lateral principal nucleus of amygdala|La|medial principal nucleus|lateral nucleus of amygdala|Nucleus amygdalae lateralis|Lateral amygdaloid nucleus|lateral amygdaloid nucleus|lateral amygdalar nucleus|lateral principal nucleus of amygdala|La|medial principal nucleus|lateral nucleus of amygdala|Nucleus amygdalae lateralis|Lateral amygdaloid nucleus|lateral amygdaloid nucleus|lateral amygdalar nucleus"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2687"/>
+                        <OntClass label="Accessory basal amygdaloid nucleus"
+                                  synonym="Nucleus amygdalae basalis accessorius|accessory basal amygdaloid nucleus|basomedial amygdaloid nucleus|Nucleus amygdaloideus basomedialis|basomedial nucleus De Olmos|basal amygdaloid nucleus, medial part|medial principal nucleus|basomedial nucleus|Accessory basal amygdaloid nucleus|basomedial nucleus (De Olmos)|accessory basal nucleus of amygdala|accessory basal nucleus of the amygdala|Nucleus amygdalae basalis accessorius|accessory basal amygdaloid nucleus|basomedial amygdaloid nucleus|Nucleus amygdaloideus basomedialis|basomedial nucleus De Olmos|basal amygdaloid nucleus, medial part|medial principal nucleus|basomedial nucleus|Accessory basal amygdaloid nucleus|basomedial nucleus (De Olmos)|accessory basal nucleus of amygdala|accessory basal nucleus of the amygdala"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2686"/>
+                    </OntClass>
+                    <OntClass label="Regional part of basal amygdaloid nucleus"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2693">
+                        <OntClass label="Predominantly gray part of basal amygdaloid nucleus"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2694">
+                            <OntClass label="Medial part of basal amygdaloid nucleus"
+                                      synonym="medial part of basal amygdaloid nucleus|medial part of the basal amygdalar nucleus|Nucleus amygdalae basalis, pars medialis|medial division of basal nucleus|Medial part of basal amygdaloid nucleus|BAM|medial part of basal amygdalar nucleus|medial basal nucleus of amygdala|medial part of basal amygdaloid nucleus|medial part of the basal amygdalar nucleus|Nucleus amygdalae basalis, pars medialis|medial division of basal nucleus|Medial part of basal amygdaloid nucleus|BAM|medial part of basal amygdalar nucleus|medial basal nucleus of amygdala"
+                                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2696"/>
+                            <OntClass label="Lateral part of basal amygdaloid nucleus"
+                                      synonym="lateral part of the basal amygdalar nucleus|lateral division of the basal nucleus|lateral division of basal nucleus|BAL|lateral basal nucleus of amygdala|Lateral part of basal amygdaloid nucleus|lateral basal nucleus of the amygdala|Nucleus amygdalae basalis, pars lateralis|lateral part of basal amygdaloid nucleus|lateral part of the basal amygdalar nucleus|lateral division of the basal nucleus|lateral division of basal nucleus|BAL|lateral basal nucleus of amygdala|Lateral part of basal amygdaloid nucleus|lateral basal nucleus of the amygdala|Nucleus amygdalae basalis, pars lateralis|lateral part of basal amygdaloid nucleus"
+                                      uri="http://nerged.cellandgrossanatomy.owl#birnlex_2695"/>
+                        </OntClass>
+                    </OntClass>
+                    <OntClass label="Basal amygdaloid nucleus"
+                              synonym="basolateral amygdaloid nucleus|Nucleus amygdalae basalis|basolateral nucleus|basolateral amygaloid nucleus|basal amygdaloid nucleus|Basal amygdaloid nucleus|basal nucleus of the amygdala|basolateral nucleus (De Olmos)|basal nucleus of amygdala|basolateral amygdalar nucleus|basolateral nucleus De Olmos|Nucleus amygdaloideus basolateralis|basolateral amygdaloid nucleus|Nucleus amygdalae basalis|basolateral nucleus|basolateral amygaloid nucleus|basal amygdaloid nucleus|Basal amygdaloid nucleus|basal nucleus of the amygdala|basolateral nucleus (De Olmos)|basal nucleus of amygdala|basolateral amygdalar nucleus|basolateral nucleus De Olmos|Nucleus amygdaloideus basolateralis"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2692"/>
+                    <OntClass label="Amygdala basolateral nuclear nonpyramidal PV basket cell" relation="located-in"
+                              uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_basolateral_nuclear_complex_nonpyramidal_PV_basket_cell"/>
+                    <OntClass label="Amygdala basolateral nuclear complex pyramidal neuron" relation="located-in"
+                              uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_basolateral_nuclear_complex_pyramidal_neuron"/>
+                    <OntClass label="Amygdala basolateral nuclear complex nonpyramidal SOM neuron" relation="located-in"
+                              uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_basolateral_nuclear_complex_nonpyramidal_SOM_neuron"/>
+                    <OntClass label="Amygdala basolateral nuclear complex nonpyramidal PV chandelier cell"
+                              relation="located-in"
+                              uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_basolateral_nuclear_complex_nonpyramidal_PV_chandelier_cell"/>
+                </OntClass>
+                <OntClass label="Basolateral amygdaloid nuclear complex"
+                          synonym="vicarious cortex|Basolateral amygdaloid nuclear complex|Basolateral nuclear complex|basolateral nuclear group|Pars basolateralis (Corpus amygdaloideum)|pars basolateralis (Corpus amygdaloideum)|amygdaloid basolateral complex|Pars basolateralis|Pars basolateralis Corpus amygdaloideum|BL|amygdalar basolateral nucleus|vicarious cortex|Basolateral amygdaloid nuclear complex|Basolateral nuclear complex|basolateral nuclear group|Pars basolateralis (Corpus amygdaloideum)|pars basolateralis (Corpus amygdaloideum)|amygdaloid basolateral complex|Pars basolateralis|Pars basolateralis Corpus amygdaloideum|BL|amygdalar basolateral nucleus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2679"/>
+                <OntClass label="Predominantly gray regional part of amygdala"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2681">
+                    <OntClass label="Intercalated amygdaloid nuclei"
+                              synonym="Massa intercalata of amygdala|intercalated nuclei of amygdala|intercalated amygdalar nuclei|intercalated masses of nucleus amygdaloideus|Massa intercalata|intercalated nucleus of the amygdala|intercalated masses|Intercalated amygdaloid nuclei|Nucleus amygdalae intercalatus|Massa intercalata of amygdala|intercalated nuclei of amygdala|intercalated amygdalar nuclei|intercalated masses of nucleus amygdaloideus|Massa intercalata|intercalated nucleus of the amygdala|intercalated masses|Intercalated amygdaloid nuclei|Nucleus amygdalae intercalatus"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2683">
+                        <OntClass label="Amygdala intercalated nuclei small spiny neuron" relation="located-in"
+                                  uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_intercalated_nuclei_small_spiny_neuron"/>
+                    </OntClass>
+                    <OntClass label="Central amygdaloid nucleus"
+                              synonym="Nucleus amygdalae centralis|central nucleus of amygda|central amygdaloid nucleus|Nucleus amygdaloideus centralis|central amygdalar nucleus|Central amygdaloid nucleus|Nucleus amygdalae centralis|central nucleus of amygda|central amygdaloid nucleus|Nucleus amygdaloideus centralis|central amygdalar nucleus|Central amygdaloid nucleus"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2682">
+                        <OntClass label="Amygdala lateral central nucleus medium spiny neuron" relation="located-in"
+                                  uri="http://www.semanticweb.org/ontologies/2009/9/Ontology1255357986125.owl#Amygdala_lateral_central_nucleus_medium_spiny_neuron"/>
+                    </OntClass>
+                </OntClass>
+                <OntClass label="Corticomedial nuclear complex"
+                          synonym="Corticomedial nuclear complex|CMA|pars corticomedialis (Corpus amygdaloideum)|Pars corticomedialis (Corpus amygdaloideum)|Pars corticomedialis|corticomedial nuclear group|Pars corticomedialis Corpus amygdaloideum|amygdalar corticomedial nucleus|Corticomedial nuclear complex|CMA|pars corticomedialis (Corpus amygdaloideum)|Pars corticomedialis (Corpus amygdaloideum)|Pars corticomedialis|corticomedial nuclear group|Pars corticomedialis Corpus amygdaloideum|amygdalar corticomedial nucleus"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2680"/>
+                <OntClass label="Regional part of corticomedial nuclear complex"
+                          uri="http://nerged.cellandgrossanatomy.owl#birnlex_2697">
+                    <OntClass label="Predominantly gray part of corticomedial nuclear complex"
+                              uri="http://nerged.cellandgrossanatomy.owl#birnlex_2699">
+                        <OntClass label="Nucleus of lateral olfactory tract"
+                                  synonym="Nucleus of lateral olfactory tract|Nucleus of the lateral olfactory tract (Ganser)|Nucleus striae olfactoriae lateralis|nucleus of the lateral olfactory tract|Nucleus of lateral olfactory tract|Nucleus of the lateral olfactory tract (Ganser)|Nucleus striae olfactoriae lateralis|nucleus of the lateral olfactory tract"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2702"/>
+                        <OntClass label="Medial amygdaloid nucleus"
+                                  synonym="medial amygalar nucleus|medial nucleus of amygdala|medial amygalar nucleus|medial nucleus of amygdala"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2701"/>
+                        <OntClass label="Cortical amygdaloid nucleus"
+                                  synonym="cortical amygdaloid nucleus|Corpus amygdaloideum pars corticomedialis|cortical amygdalar nucleus|Nucleus amygdalae corticalis|Cortical amygdaloid nucleus|posterior cortical amygdaloid nucleus|Nucleus amygdaloideus corticalis posterior|Corpus amygdaloideum pars olfactoria|cortical amygdaloid nucleus|Corpus amygdaloideum pars corticomedialis|cortical amygdalar nucleus|Nucleus amygdalae corticalis|Cortical amygdaloid nucleus|posterior cortical amygdaloid nucleus|Nucleus amygdaloideus corticalis posterior|Corpus amygdaloideum pars olfactoria"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2700"/>
+                        <OntClass label="Anterior amygdaloid area"
+                                  synonym="Anterior amygdaloid area|anterior amygdaloid area|Area amygdaloidea anterior|anterior amygdalar area|anterior amygaloid area|Area amydaliformis anterior|Anterior amygdaloid area|anterior amygdaloid area|Area amygdaloidea anterior|anterior amygdalar area|anterior amygaloid area|Area amydaliformis anterior"
+                                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_2698"/>
+                    </OntClass>
+                </OntClass>
+            </OntClass>
+            <OntClass label="sensory pathway" relation="unfolds-in" uri="http://scai.fraunhofer.de/PWDICT#ID2639">
+                <OntClass label="auditory pathway" synonym="central auditory pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2552">
+                    <OntClass label="brain stem auditory pathway" synonym="brainstem auditory pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2912"/>
+                    <OntClass label="sound localization pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2741"/>
+                </OntClass>
+                <OntClass label="somatosensory pathway" uri="http://scai.fraunhofer.de/PWDICT#ID3167"/>
+                <OntClass label="mechanotransduction pathway" uri="http://scai.fraunhofer.de/PWDICT#ID2657"/>
+                <OntClass label="Olfactory Signaling Pathway"
+                          synonym="Olfactory signal pathway|Olfactory signaling cascade|secondary olfactory pathway|Olfactory pathway|Olfactory Cascade|Olfactory signal transduction pathway|Olfactory signaling"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1903">
+                    <OntClass label="Olfactory transduction" synonym="Olfactory transduction pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID1058"/>
+                    <OntClass label="olfactory-amygdala extension pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID2716"/>
+                </OntClass>
+            </OntClass>
+        </OntClass>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#V1" label="Primary visual cortex or subregion thereof">
+        <OntClass label="visual-auditory cortex" synonym="visual-auditory cortex|visual-auditory cortex"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_1749"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#TCpol" label="Pole of temporal cortex or subregion thereof">
+        <OntClass
+                definition="Anterior component of the temporal lobe (rostral boundary) extends caudally to the entorhinal cortex.  The medial and lateral boundaries are the medial aspect of the temporal lobe and the superior or inferior temporal sulci, respectively (Christine Fennema-Notestine).^^http://www.w3.org/2001/XMLSchema#string"
+                label="Temporal pole"
+                synonym="temporal pole|Temporal pole|Polus temporalis|temporal pole|Temporal pole|Polus temporalis"
+                uri="http://nerged.cellandgrossanatomy.owl#birnlex_1055"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#V2" label="Secondary visual cortex or subregion thereof">
+        <OntClass label="visual-auditory cortex" synonym="visual-auditory cortex|visual-auditory cortex"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_1749"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#PCip" label="Cortex of the intraparietal sulcus or subregion thereof">
+        <OntClass label="Intraparietal sulcus"
+                  synonym="sulcus interparietalis|intraparietal sulcus|interparietal fissure|Intraparietal sulcus|ips|Sulcus interparietalis|intraparietal fissure|Sulcus intraparietalis|sulcus interparietalis|intraparietal sulcus|interparietal fissure|Intraparietal sulcus|ips|Sulcus interparietalis|intraparietal fissure|Sulcus intraparietalis"
+                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_4031"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#TCv" label="ventral temporal cortex or subregion thereof">
+        <OntClass label="temporal white matter"
+                  synonym="tw|Substantia medullaris temporalis|temporal white matter|tw|Substantia medullaris temporalis|temporal white matter"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_847"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#FEF" label="Frontal eye field or subregion thereof">
+        <OntClass label="frontal eye field"
+                  synonym="frontal motor eye field|frontal eye field|frontal lobe eye field|voluntary eye field|frontal gaze center|frontal motor eye field|frontal eye field|frontal lobe eye field|voluntary eye field|frontal gaze center"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_2065"/>
+        <OntClass label="area 8 of Brodmann (human)"
+                  synonym="intermediate frontal area 8|area 8 of Brodmann (human)|Brodmann's area 8|Area frontalis intermedia|intermediate frontal area 8|area 8 of Brodmann (human)|Brodmann's area 8|Area frontalis intermedia"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_2396"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#CCp" label="Gyrus cinguli posterior or subregion thereof">
+        <OntClass label="Posterior cingulate gyrus"
+                  synonym="posterior cingulate|Gyrus cinguli posterior|posterior cingulate gyrus|Posterior cingulate gyrus|posterior cingulate|Gyrus cinguli posterior|posterior cingulate gyrus|Posterior cingulate gyrus"
+                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_1546"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#CCr" label="Gyrus cinguli retrosplenialis or subregion thereof">
+        <OntClass label="retrosplenial region"
+                  synonym="retrosplenial area|Regio retrosplenialis|retrosplenial area|Regio retrosplenialis"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_2436"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#CCs" label="Gyrus cinguli subgenualis or subregion thereof">
+        <OntClass label="Cingulate gyrus"
+                  synonym="cingulate region|Gyrus cinguli|cingulate area|CG|CiG|cingulate gyrus|upper limbic gyrus|Cingulate gyrus|Gyri cinguli|Gyrus cingulatus|CgG|cingulate region|Gyrus cinguli|cingulate area|CG|CiG|cingulate gyrus|upper limbic gyrus|Cingulate gyrus|Gyri cinguli|Gyrus cingulatus|CgG"
+                  uri="http://nerged.cellandgrossanatomy.owl#birnlex_798">
+            <OntClass label="horizontal dimple"
+                      synonym="Sulcus intracinguli|horizontal dimple|Sulcus intracinguli|horizontal dimple"
+                      uri="http://nerged.cellandgrossanatomy.owl#NN_160"/>
+            <OntClass label="Glucose metabolism" relation="unfolds-in"
+                      synonym="Metabolism of glucose|metabolic pathway of glucose|glucose metabolism pathway|glucose metabolic pathway|pathway of glucose metabolism"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID1892">
+                <OntClass label="Glycogen synthesis"
+                          synonym="glycogen synthesis pathway|Glycogen biosynthesis pathway|glycogen biosynthesis pathway|glycogen biosynthetic pathway|Biosynthesis of Glycogen|biosynthetic pathway of glycogen|Glycogen synthetic pathway|Glycogen biosynthetic pathway|synthesis of Glycogen|glycogen synthetic pathway|biosynthetic pathway of Glycogen|synthetic pathway of Glycogen|synthesis of glycogen|Biosynthesis of glycogen|Glycogen synthesis pathway|glycogen biosynthesis|synthetic pathway of glycogen|glycogen synthesis|glycogenesis"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID2025">
+                    <OntClass label="Glycosaminoglycan biosynthesis - chondroitin sulfate"
+                              synonym="Biosynthesis of GAG|GAG biosynthesis pathway|synthesis of Glycosaminoglycan|Glycosaminoglycan synthesis|Glycosaminoglycan biosynthesis|Glycosaminoglycan biosynthetic pathway - chondroitin sulfate|GAG synthesis|biosynthetic pathway of Glycosaminoglycan|Biosynthesis of Glycosaminoglycan|Glycosaminoglycan biosynthesis pathway|Glycosaminoglycan synthetic pathway|synthetic pathway of Glycosaminoglycan|biosynthetic pathway of GAG|GAG synthetic pathway|synthesis of GAG|GAG synthesis pathway|Glycosaminoglycan biosynthetic pathway|synthetic pathway of GAG|GAG biosynthetic pathway|GAG biosynthesis|Glycosaminoglycan synthesis pathway"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0926">
+                        <OntClass label="Glycosaminoglycan biosynthesis - heparan sulfate"
+                                  synonym="Glycosaminoglycan biosynthetic pathway - heparan sulfate"
+                                  uri="http://scai.fraunhofer.de/PWDICT#ID0927"/>
+                    </OntClass>
+                    <OntClass label="altered glycogen biosynthetic pathway" synonym="altered glycogen biosynthesis"
+                              uri="http://scai.fraunhofer.de/PWDICT#ID0649"/>
+                </OntClass>
+                <OntClass label="Rgt1 in Yeast Glucose Induction Pathway"
+                          uri="http://scai.fraunhofer.de/PWDICT#ID1324"/>
+            </OntClass>
+            <OntClass label="Glucose metabolism" relation="unfolds-in"
+                      synonym="Metabolism of glucose|metabolic pathway of glucose|glucose metabolism pathway|glucose metabolic pathway|pathway of glucose metabolism"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID1892"/>
+            <OntClass label="Glucose metabolism" relation="unfolds-in"
+                      synonym="Metabolism of glucose|metabolic pathway of glucose|glucose metabolism pathway|glucose metabolic pathway|pathway of glucose metabolism"
+                      uri="http://scai.fraunhofer.de/PWDICT#ID1892"/>
+        </OntClass>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#IP" label="Posterior insula or subregion thereof">
+        <OntClass label="posterior marginal sulcus (human)"
+                  synonym="posterior marginal sulcus|posterior marginal sulcus human|sulcus insulae posterior (Reilii)|sulcus insulae posterior Reilii|posterior marginal sulcus (human)|Sulcus marginalis posterior|sulcus insulae posterior|pms|posterior marginal sulcus|posterior marginal sulcus human|sulcus insulae posterior (Reilii)|sulcus insulae posterior Reilii|posterior marginal sulcus (human)|Sulcus marginalis posterior|sulcus insulae posterior|pms"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_114"/>
+    </TVBTerm>
+    <TVBTerm id="http://thevirtualbrain.org#TCs" label="superior temporal cortex or subregion thereof">
+        <OntClass label="temporal white matter"
+                  synonym="tw|Substantia medullaris temporalis|temporal white matter|tw|Substantia medullaris temporalis|temporal white matter"
+                  uri="http://nerged.cellandgrossanatomy.owl#NN_847"/>
+    </TVBTerm>
+</TVBOnto>
