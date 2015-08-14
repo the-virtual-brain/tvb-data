@@ -29,8 +29,7 @@
 #
 
 import os
-import Image
-
+from PIL import Image
 
 
 def process_image(image_path, result_path, discrepancy):

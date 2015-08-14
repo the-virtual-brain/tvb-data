@@ -28,7 +28,7 @@
 #
 #
 
-import Image
+from PIL import Image
 
 WIDTH = 1550
 HEIGHT = 985
