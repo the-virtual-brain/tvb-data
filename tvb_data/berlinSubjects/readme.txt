@@ -11,7 +11,7 @@ brain areas. The files are.
 -- 1.) area.txt - The areal dimensions of each different region
 -- 2.) centres.txt - Labels and XYZ-coordinates for the most central vertices of the different regions
 -- 3.) cortical.txt - A binary list depicting wether the corresponding area is a cortical (1) or a subcortical (0) one
--- 4.) hemisphere.txt - A binary list depicting the hemisphere on which the corresponding region lies (0 = left; 1 = right)
+-- 4.) hemisphere.txt - An optional binary list depicting the hemisphere on which the corresponding region lies (0 = left; 1 = right)
 -- 5.) orientation.txt - The vertex normals of the central vertices
 -- 6.) tract.txt - The connectivity tract lengths in mm
 -- 7.) weights.txt - The matrix describing the connectivity strength between the brain areas. 
