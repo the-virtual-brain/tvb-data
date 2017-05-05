@@ -40,7 +40,7 @@ setup(
     name='tvb_data',
     packages=find_packages(),
     version="1.5.1",
-    license="GPL",
+    license="GPL v3",
     author="TVB Team"
 )
 
