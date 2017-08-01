@@ -158,8 +158,8 @@ def adapt_signal_to_parcelation(signals, correspondence, connectivity_len, fill_
     new_signals = numpy.ones((nr_sig, len_new_sign))
     new_signals *= fill_missing
 
-    for i in xrange(nr_sig):
-        for j in xrange(len_sign):
+    for i in range(nr_sig):
+        for j in range(len_sign):
             # region_index is region_id - 1
             old_region_id = j + 1
             new_region_id = correspondence[old_region_id]
@@ -178,7 +178,7 @@ def adapt_66_signal_file_to_68(src_pth, dest_pth, region2region, fill_missing=No
     if fill_missing is None:
         fill_missing = numpy.min(signals66)
     signals68 = adapt_signal_to_parcelation(signals66, region2region, 68, fill_missing)
-    #introduce zero region in signals
+    # introduce zero region in signals
     signals69 = signal_add_unmapped_node(signals68, fill_missing)
     scipy.io.savemat(dest_pth, {'M': signals69})
 
@@ -191,14 +191,14 @@ def compose_mappings(a, b):
 
 
 def main():
-    print "introducing 0 node in 68 connectivity"
+    print("introducing 0 node in 68 connectivity")
 
     conn_68 = os.path.join(CONNECTIVITY_BASE, 'low_resolution_parcellation', 'subcortical_false',
                            'epfl_ph0036_hemisphere_both_subcortical_false_regions_68_TVB.zip')
 
     introduce_unmapped_node('epfl_ph0036_regions_68+1_TVB.zip', conn_68)
 
-    print "convert 68+1 region mapping to txt"
+    print("convert 68+1 region mapping to txt")
 
     convert_mat_regionmap_to_txt(
         'region_mapping_ph0036_68+1_TVB.txt',
@@ -206,7 +206,7 @@ def main():
         os.path.join(REGION_MAP_BASE, 'RegionMapping_PH0036_rh_aparc_68.mat')
     )
 
-    print "adapt 66 signals to 68+1"
+    print("adapt 66 signals to 68+1")
 
     mantini66_2_hagman66 = parse_region_correspondence_csv('mantini66_to_hagmann66.csv', 66, 66)
     hagman66_2_hagman68 = parse_region_correspondence_csv('Hagmann68_to_Hagmann66.csv', 66, 68, reverse=True)
@@ -217,7 +217,6 @@ def main():
 
     adapt_66_signal_file_to_68('model_networks.mat', 'model_networks_adapted_69.mat',
                                mantini_2_hagman, fill_missing=None)
-
 
 
 if __name__ == '__main__':

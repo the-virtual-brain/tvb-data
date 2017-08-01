@@ -43,17 +43,17 @@ def _correct(data, mapping_file, conn_regions):
     mapping_data = {int(row[0]): int(row[1]) for row in mapping_data}
 
     not_matched = set()
-    for i in xrange(data.shape[0]):
-        for j in xrange(data.shape[1]):
-            for k in xrange(data.shape[2]):
+    for i in range(data.shape[0]):
+        for j in range(data.shape[1]):
+            for k in range(data.shape[2]):
                 val = data[i][j][k]
                 if not mapping_data.has_key(val):
                     not_matched.add(val)
                 data[i][j][k] = mapping_data.get(val, -1)
 
-    print "Now values are in interval [%d - %d]" % (data.min(), data.max())
+    print("Now values are in interval [%d - %d]" % (data.min(), data.max()))
     if not_matched:
-        print "Not matched regions will be considered background: %s" % not_matched
+        print("Not matched regions will be considered background: %s" % not_matched)
 
     assert (data.min() >= -1 and data.max() < conn_regions)
     return data
@@ -77,5 +77,4 @@ if __name__ == "__main__":
 
 
 ## Part of the surface
-#mri_info --vox2ras $SUBJ_DIR/mri/T1.mgz --o SURFACE/vox2ras.txt
-
+# mri_info --vox2ras $SUBJ_DIR/mri/T1.mgz --o SURFACE/vox2ras.txt

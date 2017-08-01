@@ -59,8 +59,7 @@ def process_folder(root_folder, discrepancy):
                 result_png_path = original_png_path.replace(".png", "_tr.png")
                 process_image(original_png_path, result_png_path, discrepancy)
                 count += 1
-    print str(count) + " images were transformed in folder " + root_folder
-
+    print(str(count) + " images were transformed in folder " + root_folder)
 
 
 if __name__ == "__main__":

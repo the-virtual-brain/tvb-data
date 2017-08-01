@@ -59,7 +59,7 @@ def _rotate_eeg_sensors(pth):
     d = rot.dot(d.T).T    
     
     for i, l in enumerate(sensors['labels']):
-        print "%-4s % .16f  % .16f  % .16f" % (l, d[i][0], d[i][1], d[i][2])
+        print("%-4s % .16f  % .16f  % .16f" % (l, d[i][0], d[i][1], d[i][2]))
 
 
 import os.path

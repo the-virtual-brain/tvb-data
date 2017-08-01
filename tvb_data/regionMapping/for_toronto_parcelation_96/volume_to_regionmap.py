@@ -68,7 +68,7 @@ def save_data_for_viewer(m):
     dots, vox = m.voxels2vertices()
 
     with open('viewerdata/nii_points.txt', 'w') as f:
-        for i in xrange(0, len(dots), 3):
+        for i in range(0, len(dots), 3):
             f.write(' '.join(str(v) for v in dots[i: i + 3]))
             f.write('\n')
 

@@ -96,6 +96,7 @@ class Mapper(object):
     centers
         positions of theregion centers
     """
+
     def __init__(self, voxels, vertices, affine, region_id_to_region_idx, centers):
         self.voxels = voxels
         self.vertices = vertices
@@ -104,46 +105,46 @@ class Mapper(object):
         self.centers = centers
 
         # ajust the affine
-        #sx = sy = sz = 0.99
-        #ajusting = np.array(
+        # sx = sy = sz = 0.99
+        # ajusting = np.array(
         #    [[sx,  0.0,  0.0,   0.01],
         #     [0.0,  sy,  0.0,   0.0],
         #     [0.0,  0.0,  sz,   0.0],
         #     [0.0,  0.0,  0.0,  1.0]])
-        #self.affine = ajusting.dot(affine)
+        # self.affine = ajusting.dot(affine)
         self.affine = affine
         self.invaffine = np.linalg.inv(self.affine)
 
     def stats(self):
-        print 'vertices shape    : ' + str(self.vertices.shape)
-        print 'voxels shape      : ' + str(self.voxels.shape)
-        print 'nonzero voxels    : %s' % np.count_nonzero(self.voxels)
-        print
-        print '==voxels=='
+        print('vertices shape    : ' + str(self.vertices.shape))
+        print('voxels shape      : ' + str(self.voxels.shape))
+        print('nonzero voxels    : %s' % np.count_nonzero(self.voxels))
+        print()
+        print('==voxels==')
         counts = Counter(self.voxels.flat)
-        print 'unique values %s' % len(counts)
-        print counts
-        print 'voxel positions after affine transform'
-        print '000 - %s' % self.affine.dot([0, 0, 0, 1])
-        print '111 - %s' % self.affine.dot(list(self.voxels.shape) + [1])
-        print
-        print '==vertices positions=='
-        print 'x y z mins %s' % np.min(self.vertices, axis=0)
-        print 'x y z maxs %s' % np.max(self.vertices, axis=0)
-        print
-        print '==surface bbox min xyz max xyz=='
-        print ['%.1f' % q for q in self.bbox_surface()]
-        print
-        print '==voxel trimmed !=0 planes. Plane indices'
+        print('unique values %s' % len(counts))
+        print(counts)
+        print('voxel positions after affine transform')
+        print('000 - %s' % self.affine.dot([0, 0, 0, 1]))
+        print('111 - %s' % self.affine.dot(list(self.voxels.shape) + [1]))
+        print()
+        print('==vertices positions==')
+        print('x y z mins %s' % np.min(self.vertices, axis=0))
+        print('x y z maxs %s' % np.max(self.vertices, axis=0))
+        print()
+        print('==surface bbox min xyz max xyz==')
+        print(['%.1f' % q for q in self.bbox_surface()])
+        print()
+        print('==voxel trimmed !=0 planes. Plane indices')
         mins, maxs = self.bbox_voxels()
-        print 'min ijk', mins
-        print 'max ijk', maxs
-        print
-        print 'these through the affine'
-        print 'min %s' % self.affine.dot(list(mins) + [1])
-        print 'max %s' % self.affine.dot(list(maxs) + [1])
-        print '==the affine=='
-        print self.affine
+        print('min ijk', mins)
+        print('max ijk', maxs)
+        print()
+        print('these through the affine')
+        print('min %s' % self.affine.dot(list(mins) + [1]))
+        print('max %s' % self.affine.dot(list(maxs) + [1]))
+        print('==the affine==')
+        print(self.affine)
 
     def bbox_surface(self):
         minx = miny = minz = 1e10
@@ -154,7 +155,7 @@ class Mapper(object):
             miny = min(miny, y)
             maxy = max(maxy, y)
             minz = min(minz, z)
-            maxz = max(maxz, z)            
+            maxz = max(maxz, z)
         return minx, miny, minz, maxx, maxy, maxz
 
     def bbox_voxels(self):
@@ -166,27 +167,27 @@ class Mapper(object):
         dx, dy, dz = self.voxels.shape
         imin = imax = jmin = jmax = kmin = kmax = None
 
-        for i in xrange(dz):
+        for i in range(dz):
             if np.count_nonzero(self.voxels[:, :, i]) != 0:
                 kmin = i
                 break
-        for i in xrange(dz):                
+        for i in range(dz):
             if np.count_nonzero(self.voxels[:, i, :]) != 0:
                 jmin = i
                 break
-        for i in xrange(dz):        
+        for i in range(dz):
             if np.count_nonzero(self.voxels[i, :, :]) != 0:
                 imin = i
                 break
-        for i in xrange(dz):        
+        for i in range(dz):
             if np.count_nonzero(self.voxels[:, :, -i - 1]) != 0:
                 kmax = dz - i - 1
                 break
-        for i in xrange(dz):        
+        for i in range(dz):
             if np.count_nonzero(self.voxels[:, -i - 1, :]) != 0:
                 jmax = dy - i - 1
                 break
-        for i in xrange(dz):        
+        for i in range(dz):
             if np.count_nonzero(self.voxels[-i - 1, :, :]) != 0:
                 imax = dx - i - 1
                 break
@@ -204,7 +205,7 @@ class Mapper(object):
         findices = self.invaffine.dot(affine_vertices.T).T
         # to index we need ints
         int_indices = np.round(findices).astype(int)
-        #and cut the homog coord
+        # and cut the homog coord
         return int_indices[:, :-1]
 
     def voxels2vertices(self):
@@ -224,9 +225,9 @@ class Mapper(object):
         vals = [0] * nx * ny * nz
         idx = 0
 
-        for i in xrange(nx):
-            for j in xrange(ny):
-                for k in xrange(nz):
+        for i in range(nx):
+            for j in range(ny):
+                for k in range(nz):
                     vox = voxels[i, j, k]
                     if vox:
                         vals[idx] = vox
@@ -327,17 +328,17 @@ class Mapper(object):
         mapped2zero = c[0]
         mapped_ok = len(self.vertices) - mapped2zero
         ok_avg = mapped_ok / (len(c) - 1)
-        print 'number of regions mapped       : %s' % (len(c) - 1)
-        print 'total vertices                 : %s' % len(self.vertices)
-        print 'vertices mapped to zero region : %s' % mapped2zero
-        print 'average number of vertices '
-        print '    per non-zero region        : %s ' % ok_avg
-        
+        print('number of regions mapped       : %s' % (len(c) - 1))
+        print('total vertices                 : %s' % len(self.vertices))
+        print('vertices mapped to zero region : %s' % mapped2zero)
+        print('average number of vertices ')
+        print('    per non-zero region        : %s ' % ok_avg)
+
         if mapped2zero > 0.20 * ok_avg:
-            print 'this looks bad:\n bads are more than 20% of goods'
-        print c
+            print('this looks bad:\n bads are more than 20% of goods')
+        print(c)
 
         # print non-mapped vertices
-        #for i in xrange(len(region_map)):
+        # for i in range(len(region_map)):
         #    if region_map[i] == 0:
         #        print "%s " % self.vertices[i]

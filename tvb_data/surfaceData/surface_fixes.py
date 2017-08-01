@@ -4,18 +4,18 @@ def flip_winding(triangles):
     """
     :param triangles: an array of indices
     """
-    for i in xrange(0, len(triangles), 3):
+    for i in range(0, len(triangles), 3):
         triangles[i], triangles[i+1] = triangles[i+1], triangles[i]
 
 def flip_normals(normals):
     """
     :param triangles: an array of normals
     """
-    for i in xrange(len(normals)):
+    for i in range(len(normals)):
         normals[i] = -normals[i]
 
 def to_obj():    
-    unimplemented
+    raise NotImplemented()
 
 def main_flip_standard_surface(folder):
     """
@@ -28,7 +28,7 @@ def main_flip_standard_surface(folder):
     
     def write(pth, data):
         with open(pth, 'w') as f:
-            for i in xrange(0, len(data), 3):
+            for i in range(0, len(data), 3):
                 f.write(' '.join(str(t) for t in data[i:i+3]))
                 f.write('\n')
 
