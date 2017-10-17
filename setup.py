@@ -29,19 +29,34 @@
 #
 
 """
-Prepare tvb_data for Python usage.
+Install TVB Data package for developers.
+
+Execute:
+    python setup.py install/develop
+
 """
 
+import os
 import shutil
-from setuptools import setup, find_packages
+import setuptools
 
 
-setup(
-    name='tvb_data',
-    packages=find_packages(),
-    version="1.5.4",
-    license="GPL v3",
-    author="TVB Team"
-)
+VERSION = "1.5.4.0"
+
+with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as fd:
+    DESCRIPTION = fd.read()
+
+setuptools.setup(name='tvb-data',
+                 version=VERSION,
+                 packages=setuptools.find_packages(),
+                 include_package_data=True,
+                 description='A package with data for TVB',
+                 long_description=DESCRIPTION,
+                 license="GPL v3",
+                 author="TVB Team",
+                 author_email='tvb.admin@thevirtualbrain.org',
+                 url='http://www.thevirtualbrain.org',
+                 download_url='https://github.com/the-virtual-brain/tvb-data',
+                 keywords='tvb brain simulator neuroscience human animal neuronal dynamics models delay data')
 
 shutil.rmtree('tvb_data.egg-info', True)
