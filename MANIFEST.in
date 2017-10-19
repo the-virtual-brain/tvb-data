@@ -1,3 +1,5 @@
+include LICENSE
+
 include tvb_data/__init__.py
 
 include tvb_data/connectivity/connectivity_76.zip 
