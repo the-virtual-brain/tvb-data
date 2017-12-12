@@ -36,12 +36,11 @@ import networkx
 import tempfile
 import os
 import shutil
-from cfflib import load
-from cfflib import save_to_cff
+from cfflib import load, save_to_cff
 
-old_cff_path = 'connectivities.cff'
-new_cff_path = 'connectivities.cff'
-temp_folder = "cff_data\\"
+OLD_CFF = 'connectivities.cff'
+NEW_CFF = 'connectivities.cff'
+TEMP_FOLDER = "cff_data\\"
 
 
 def _store_intermediate_nodes_and_edges(net, data_file, name):
@@ -64,11 +63,11 @@ def _build_and_store_new_graph(data_file, name=""):
     :return: new Graph compatible with version 2.0
     """
     data_file += name
-    GE = networkx.read_gpickle(data_file + "_edges" + ".gpickle")
-    GN = networkx.read_gpickle(data_file + "_nodes" + ".gpickle")
+    edges = networkx.read_gpickle(data_file + "_edges" + ".gpickle")
+    nodes = networkx.read_gpickle(data_file + "_nodes" + ".gpickle")
     net = networkx.Graph()
-    net.add_nodes_from(GN)
-    net.add_edges_from(GE)
+    net.add_nodes_from(nodes)
+    net.add_edges_from(edges)
     return net
 
 
@@ -108,10 +107,10 @@ def create_new_version(old_cff_path, temp_folder, new_cff_path):
 
 
 def main():
-    if (float(networkx.__version__) == 1.1):
-        store_with_version_1(old_cff_path, temp_folder)
-    elif (float(networkx.__version__) >= 2.0):
-        create_new_version(old_cff_path, temp_folder, new_cff_path)
+    if float(networkx.__version__) == 1.1:
+        store_with_version_1(OLD_CFF, TEMP_FOLDER)
+    elif float(networkx.__version__) >= 2.0:
+        create_new_version(OLD_CFF, TEMP_FOLDER, NEW_CFF)
 
 
 if __name__ == "__main__":
