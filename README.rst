@@ -20,7 +20,11 @@ to have it linked into your current Python environment.
 To work with this package from pypi, run::
 
     pip install tvb-data
+    
+tvb-data` also is shared on Conda.
+To work with this package from conda, run::
 
+    conda install -c pyc0d3r tvb-data 
 
 Further Resources
 =================
