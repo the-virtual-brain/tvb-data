@@ -1,0 +1,2 @@
+Test-Command: python -m "import data"
+Depends: python
