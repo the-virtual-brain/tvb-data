@@ -1,0 +1,21 @@
+Source: tvb-data
+Maintainer: umar haruna abdullahi <umarbrowser20@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>=11),
+               dh-python,
+               python-all,
+               python-setuptools
+Standards-Version: 4.1.4
+Vcs-Browser: https://github.com/the-virtual-brain/tvb-data
+Vcs-Git: https://github.com/the-virtual-brain/tvb-data.git
+Homepage: http://www.thevirtualbrain.org
+
+Package: tvb-data
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends}
+Description: various demonstration datasets for the virtual brain
+ Here you will find compatible file/folder structures that can
+ be uploaded thorugh the web interface of TVB and the default 
+ datasets used when working in console or library mode
