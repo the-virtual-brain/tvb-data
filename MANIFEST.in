@@ -13,8 +13,8 @@ include tvb_data/connectivity/__init__.py
 include tvb_data/cff/__init__.py
 include tvb_data/cff/connectivities.cff
 
-include tvb_data/dti_pipeline/Output_Toronto/output_ConnectionDistanceMatrix.csv
-include tvb_data/dti_pipeline/Output_Toronto/output_ConnectionCapacityMatrix.csv
+include tvb_data/dti_pipeline_toronto/output_ConnectionDistanceMatrix.csv
+include tvb_data/dti_pipeline_toronto/output_ConnectionCapacityMatrix.csv
 
 include tvb_data/gifti/__init__.py
 include tvb_data/gifti/sample.cortex.gii
