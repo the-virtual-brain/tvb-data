@@ -1,0 +1,8 @@
+The Virtual Macaque Brain
+-------------------------- 
+  A macaque connectome for large-scale network simulations in TheVirtualBrain
+   Shen, Kelly; Bezgin, Gleb; Everling, Stefan; McIntosh, Anthony R.
+
+--------------------------
+A whole-cortex macaque structural connectome constructed from a combination of axonal tract-tracing and diffusion-weighted imaging data. 
+Created for modeling brain dynamics using TheVirtualBrain platform. Website: thevirtualbrain.org
