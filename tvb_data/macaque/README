@@ -1,0 +1,25 @@
+The Virtual Macaque Brain
+-------------------------- 
+  A macaque connectome for large-scale network simulations in TheVirtualBrain
+   Shen, Kelly; Bezgin, Gleb; Everling, Stefan; McIntosh, Anthony R.
+
+--------------------------
+A whole-cortex macaque structural connectome constructed from a combination of axonal tract-tracing and diffusion-weighted imaging data. 
+Created for modeling brain dynamics using TheVirtualBrain platform. Website: thevirtualbrain.org
+
+The original data can be found here: https://www.thevirtualbrain.org/tvb/zwei/ladeluke/demo-data
+
+The prepare.py file builds a dictionary containing labels and their associated indexes (starting from 0). 
+Originally the "surf_labels.txt" file had vertices on the surface pointing towards a non-existent region (label 0).
+We handled this problem by adding two new unknown regions and assigning these vertices to these new regions.
+When the region mapping is created, if we find a label value that is not pointing to an existing region, we assign
+that vertex to one of the unknown regions (41 or 83) based on its x coordinate. By adding these two new regions, 
+the connectivity weights and tract-lengths have to be updated with two rows of zeros and two columns of zeros at 
+corresponding indexes and the "alter_tracts_and_weights" function does just that. 
+
+The following entities can be imported from this folder in this order:
+- a Connectivity with adjacency weights and tract-length matrices for 84 regions 
+- a Cortical Surface with 147460 vertices and corresponding triangles
+- a vector for Region Mapping (assigning to each vertex a region index)
+- a VolumeMapping having 84 regions in the 3D volume
+
