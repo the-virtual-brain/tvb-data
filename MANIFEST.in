@@ -2,16 +2,15 @@ include LICENSE
 
 include tvb_data/__init__.py
 
-include tvb_data/connectivity/connectivity_76.zip 
-include tvb_data/connectivity/paupau.zip 
+include tvb_data/brco/tvb-brco.xml
+
 include tvb_data/connectivity/connectivity_66.zip 
 include tvb_data/connectivity/connectivity_68.zip
+include tvb_data/connectivity/connectivity_76.zip
 include tvb_data/connectivity/connectivity_96.zip
 include tvb_data/connectivity/connectivity_192.zip
+include tvb_data/connectivity/paupau.zip
 include tvb_data/connectivity/__init__.py
-
-include tvb_data/cff/__init__.py
-include tvb_data/cff/connectivities.cff
 
 include tvb_data/dti_pipeline_toronto/output_ConnectionDistanceMatrix.csv
 include tvb_data/dti_pipeline_toronto/output_ConnectionCapacityMatrix.csv
