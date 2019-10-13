@@ -7,7 +7,7 @@ The Virtual Macaque Brain
 A whole-cortex macaque structural connectome constructed from a combination of axonal tract-tracing and diffusion-weighted imaging data. 
 Created for modeling brain dynamics using TheVirtualBrain platform. Website: thevirtualbrain.org
 
-The original data can be found here: https://www.thevirtualbrain.org/tvb/zwei/ladeluke/demo-data
+The original data can be found here: https://zenodo.org/record/1471588#.XaNU9eczYmI
 
 --------------------------
 The prepare.py file builds a dictionary containing labels and their associated indexes (starting from 0). 
