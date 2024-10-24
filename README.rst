@@ -1,6 +1,6 @@
 **Using this repository (tvb-data) from Github is now considered DEPRECATED.
 We advise you to use our Zenodo repository instead:
-https://zenodo.org/record/3474071#.XZmcU-cza_U**
+https://zenodo.org/records/10128131**
 
 TVB Data
 ========
